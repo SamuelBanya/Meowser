@@ -1,0 +1,19 @@
+* Phase 1 Project
+** Title
+<2022-06-08 Wed 17:50>: Here are some ideas I have:
+- Find My Pet: Too much of a connotation with a lost pet, not necessarily a new one, sounds like a downer
+- Jacques Sitter: Too ambitious, would need to combine multiple APIs together to include actual pet sitting capability
+- Petster: Not bad, but I think its already taken --> Yep, it's already taken
+
+** Ideas
+<2022-06-08 Wed 17:52>: Here are my ideas:
+- This would be a mobile responsive webpage that would incorporate two things
+- 1. The ability to have a search bar to actively call the 'Petfinder' API for the top 10 results (this is to prevent it from the API key itself being banned)
+- 2. A tie-in to Google Maps with an additional map section to find pets by location
+
+** Layout
+<2022-06-08 Wed 18:14>: My design will be heavily influenced via Rover's online website (https://www.rover.com/search/) for these reasons:
+- It's responsive
+- It makes sense
+- The map is on the right with corresponding pins
+- There are 10 results per page with card results
