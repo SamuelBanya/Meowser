@@ -4,15 +4,72 @@
     <!-- Include Bootstrap CSS here: -->
     <!-- https://getbootstrap.com/docs/5.2/getting-started/download/ -->
     <meta charset="UTF-8"/>
-    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"/>
+    <link href="css/meowser.css" rel="stylesheet"/>
+    <title>Meowser</title>
   </head>
   <body>
-    <div>
-      <h1>Meowser</h1>
-      <h2>Another wonderful web app created by Samuel Banya</h2>
-    </div>
-    <div>
-      <input name="" type="submit" value=""/>
-    </div>
+    <header>
+      <div class="px-3 py-2 bg-info text-black">
+        <div class="container d-flex flex-wrap justify-content-center">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+              <!-- <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg> -->
+              <img alt="" src="images/pawprint.png" width="40" height="32"/>
+            </a>
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+              <li>
+                <a href="#" class="nav-link text-secondary">
+                  <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use></svg> -->
+                  Meowser: A Web App To Find New Cats To Adopt!
+                </a>
+              </li>
+            </ul>
+              <img alt="" src="images/pawprint.png" width="40" height="32"/>
+          </div>
+        </div>
+      </div>
+      <div class="px-3 py-2 border-bottom mb-3">
+        <div class="container d-flex flex-wrap justify-content-center">
+          <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+            <input id="zipcodeSearchField" type="search" class="form-control" placeholder="Search Zipcode..." aria-label="Search">
+          </form>
+          <div class="text-end">
+            <button type="button" class="btn btn-light text-dark me-2">Login</button>
+            <button type="button" class="btn btn-primary">Sign-up</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="leftOptionsMenu" class="menuSection">
+        <h1>Options</h1>
+        <label for="breed-select">Choose A Breed:</label>
+        <select id="breed-select">
+          <option value="">Domestic Shorthair</option>
+          <option value="">Domestic Longhair</option>
+          <option value="">Tabby</option>
+          <option value="">Siberian</option>
+          <option value="">Siamese</option>
+        </select>
+      </section>
+      <section id="middleResultsMenu" class="menuSection">
+        <h2>Results</h2>
+        <div id="resultsDiv">
+        </div>
+      </section>
+      <section id="rightResultsMap" class="menuSection">
+        <h2>Map</h2>
+        <div id="resultsMap">
+          <!-- <iframe frameborder="0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d49683.37568651638!2d-77.0365184!3d38.8962904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1385703808650"></iframe> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14085.02298321255!2d-81.5012646!3d28.0472148!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1654904484240!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+    </main>
+    <!-- Bootstrap JS -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/meowser.js"></script>
   </body>
 </html>
