@@ -83,3 +83,17 @@ app.use(express.static(path.join(__dirname, "src")));
 <2022-06-11 Sat 17:36>: Due to complexities of having to deal with 'CORS' issues with the required authentication for the 'PetFinder' API, I decided to shift focus to just make a simple cat breed fetcher type app that would allow you to browse cats in your web browser based upon their breed.
 
 With this in mind, I removed the 'ExpressJS' and other NodeJS components from the project itself to make sure I can complete the project on time.
+
+<2022-06-11 Sat 18:29>: I then decided to utilize 'db.json' by obtaining the list of cat breeds from Wikipedia via this link:
+- https://en.wikipedia.org/wiki/List_of_cat_breeds
+
+To then better suit the output required by 'db.json', I decided to use the following code snippet in the browser's console to obtain the object output I needed:
+
+#+begin_src js
+  breedNamesList.forEach((breedName) => {
+      console.log("{");
+      console.log('"name": ', breedName.textContent);
+      console.log('"link": ', breedName.href);
+      console.log("},");
+  })
+#+end_src

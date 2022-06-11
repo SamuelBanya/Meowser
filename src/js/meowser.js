@@ -43,7 +43,7 @@ function testRequest() {
                 .then(response => {
                     console.log("response: ", response);
                 })
-p
+
         });
 }
 document.addEventListener("DOMContentLoaded", () => {
