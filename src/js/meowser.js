@@ -1,9 +1,4 @@
-// Adding 'dotenv' package to allow for securely accessing API keys:
-// https://www.npmjs.com/package/dotenv
-// require("dotenv").config();
-const dotenv = require("dotenv").config();
 
-console.log(`APIKEY: ${APIKEY}`);
 
 document.addEventListener("DOMContentLoaded", () => {
     getFloridaResults();
