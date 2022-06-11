@@ -4,6 +4,7 @@
 - Find My Pet: Too much of a connotation with a lost pet, not necessarily a new one, sounds like a downer
 - Jacques Sitter: Too ambitious, would need to combine multiple APIs together to include actual pet sitting capability
 - Petster: Not bad, but I think its already taken --> Yep, it's already taken
+- Meowser: This was the final name I decided upon as I had this in the back of my mind for quite some time
 
 ** Ideas
 <2022-06-08 Wed 17:52>: Here are my ideas:
@@ -17,3 +18,68 @@
 - It makes sense
 - The map is on the right with corresponding pins
 - There are 10 results per page with card results
+
+** Borrowind CSS For The Top Searchbar
+<2022-06-11 Sat 16:32>: I took the searchbar from this particular example site:
+- https://bbbootstrap.com/snippets/awesome-search-bar-hover-button-using-html-and-css-96470765
+
+** How I Was Able To Convert The 'PetFinder' API's 'cURL' Example Into A 'fetch()' Request
+<2022-06-11 Sat 16:57>: I used this site which converts a 'cURL' request to a 'fetch()' request for the use in my project:
+- https://kigiri.github.io/fetch/
+
+** How I Attempted To Convert The Project Into A NodeJS App To Avoid 'CORS' Error
+<2022-06-11 Sat 16:05>: I had to deal with the annoying 'CORS' error which is defined within this Wikipedia article:
+- https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
+
+After a bit of research, I found this particular blog post to be useful:
+- https://stackabuse.com/handling-cors-with-node-js/
+
+With this in mind, I used these commands accordingly:
+#+begin_src bash
+npm i --save express
+npm i --save cors
+#+end_src
+
+I then used this guide to also help tweak the 'express.js' ideas so that 'meowser.html' is served at the default route for the project:
+- https://www.digitalocean.com/community/tutorials/use-expressjs-to-deliver-html-files
+
+I then had to use this 'path' Docs page from Node.JS in order to figure out how to properly use the path.join() function appropriately:
+- https://nodejs.org/api/path.html
+
+I then found this StackOverflow post on how to properly find the parent folder accordingly with '__dirname' in this context:
+- https://stackoverflow.com/questions/7083045/fs-how-do-i-locate-a-parent-folder
+
+<2022-06-11 Sat 16:46>: I tried referring to the following pages to be able to use 'express.static' to serve static files accordingly:
+- http://expressjs.com/en/api.html#express.static
+
+I saw this StackOverflow post as an edge case if the 'public' option for 'express.static' doesn't work out:
+- https://stackoverflow.com/questions/58115695/how-to-detect-404-errors-from-express-static
+
+I then referred to this 'expressjs' Docs page so that I can serve both the 'assets' and 'src' folder accordingly:
+- https://expressjs.com/en/starter/static-files.html
+
+<2022-06-11 Sat 16:53>: I noticed I was receiving these errors when trying to run my app locally:
+#+begin_src bash
+Refused to apply style from 'http://localhost:8080/assets/css/meowser.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+meowser:21          GET http://localhost:8080/images/pawprint.png 404 (Not Found)
+meowser:75          GET http://localhost:8080/src/js/test.js net::ERR_ABORTED 404 (Not Found)
+#+end_src
+
+I then did research and found this StackOverflow post:
+- https://stackoverflow.com/questions/48778619/node-express-refused-to-apply-style-because-its-mime-type-text-html
+
+I also found this random GitHub issue page that details how to use 'app.use(express.static())' to serve static files in the context of ExpressJS:
+- https://github.com/nasa/openmct/issues/3159
+
+I then tried using these two specific lines within my JS script so that I could make sure that the 'assets' directory containing the CSS stylesheets, and the 'src' directory containing my main JS script would be recognized by ExpressJS:
+#+begin_src js
+app.use(express.static(path.join(__dirname, "assets")));
+app.use(express.static(path.join(__dirname, "src")));
+#+end_src
+
+<2022-06-11 Sat 16:58>: I am still unable to figure out why using 'app.use(express.static())' is not solving the issue of being able to host assets for the CSS stylesheet and the JS script for my project.
+
+** Shifted Focus To Not Create An ExpressJS App
+<2022-06-11 Sat 17:36>: Due to complexities of having to deal with 'CORS' issues with the required authentication for the 'PetFinder' API, I decided to shift focus to just make a simple cat breed fetcher type app that would allow you to browse cats in your web browser based upon their breed.
+
+With this in mind, I removed the 'ExpressJS' and other NodeJS components from the project itself to make sure I can complete the project on time.
