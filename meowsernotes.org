@@ -90,10 +90,27 @@ With this in mind, I removed the 'ExpressJS' and other NodeJS components from th
 To then better suit the output required by 'db.json', I decided to use the following code snippet in the browser's console to obtain the object output I needed:
 
 #+begin_src js
-  breedNamesList.forEach((breedName) => {
-      console.log("{");
-      console.log('"name": ', breedName.textContent);
-      console.log('"link": ', breedName.href);
-      console.log("},");
-  })
+let breedNamesList = document.querySelectorAll("th a");
+
+breedNamesList.forEach((breedName) => {
+    console.log("{");
+    console.log('"name": "', breedName.textContent, '"');
+    console.log('"link": "', breedName.href, '"');
+    console.log("},");
+})
 #+end_src
+
+<2022-06-11 Sat 19:03>: I then got the images separately by using the following code snippet in the browser's console:
+#+begin_src js
+let breedImages = document.querySelectorAll("td a img");
+
+breedImages.forEach((breed) => {
+    console.log('"imageAlt": "', breed.alt, '"');
+    console.log('"imageSrc": "', breed.src, '"');
+});
+#+end_src
+
+<2022-06-11 Sat 19:42>: I then placed these results back into 'db.json' individually, and noticed some syntax issues.
+
+I found a related online JSON linter, and discovered there was a trailing comma:
+- https://jsonformatter.curiousconcept.com/#
