@@ -1,408 +1,408 @@
 {
     "breeds": [
         {
-            "name": Abyssinian,
+            "name": "Abyssinian",
             "link": "https://en.wikipedia.org/wiki/Abyssinian_cat"
-        }
+        },
         {
-            "name":  Aegean
-            "link":  https://en.wikipedia.org/wiki/Aegean_cat
+            "name": "Aegean",
+            "link": "https://en.wikipedia.org/wiki/Aegean_cat"
         },
         {
-            "name":  American Bobtail
-            "link":  https://en.wikipedia.org/wiki/American_Bobtail
+            "name": "American Bobtail",
+            "link": "https://en.wikipedia.org/wiki/American_Bobtail"
         },
         {
-            "name":  American Curl
-            "link":  https://en.wikipedia.org/wiki/American_Curl
+            "name": "American Curl",
+            "link": "https://en.wikipedia.org/wiki/American_Curl"
         },
         {
-            "name":  American Ringtail
-            "link":  https://en.wikipedia.org/w/index.php?title=American_Ringtail&action=edit&redlink=1
+            "name": "American Ringtail",
+            "link": "https://en.wikipedia.org/w/index.php?title=American_Ringtail&action=edit&redlink=1"
         },
         {
-            "name":  American Shorthair
-            "link":  https://en.wikipedia.org/wiki/American_Shorthair
+            "name": "American Shorthair",
+            "link": "https://en.wikipedia.org/wiki/American_Shorthair"
         },
         {
-            "name":  American Wirehair
-            "link":  https://en.wikipedia.org/wiki/American_Wirehair
+            "name": "American Wirehair",
+            "link": "https://en.wikipedia.org/wiki/American_Wirehair"
         },
         {
-            "name":  Aphrodite Giant
-            "link":  https://en.wikipedia.org/wiki/Cyprus_cat#Aphrodite_Giant
+            "name": "Aphrodite Giant",
+            "link": "https://en.wikipedia.org/wiki/Cyprus_cat#Aphrodite_Giant"
         },
         {
-            "name":  Arabian Mau
-            "link":  https://en.wikipedia.org/wiki/Arabian_Mau
+            "name": "Arabian Mau",
+            "link": "https://en.wikipedia.org/wiki/Arabian_Mau"
         },
         {
-            "name":  Asian
-            "link":  https://en.wikipedia.org/wiki/Asian_cat
+            "name": "Asian",
+            "link": "https://en.wikipedia.org/wiki/Asian_cat"
         },
         {
-            "name":  Asian Semi-longhair
-            "link":  https://en.wikipedia.org/wiki/Asian_Semi-longhair
+            "name": "Asian Semi-longhair",
+            "link": "https://en.wikipedia.org/wiki/Asian_Semi-longhair"
         },
         {
-            "name":  Australian Mist
-            "link":  https://en.wikipedia.org/wiki/Australian_Mist
+            "name": "Australian Mist",
+            "link": "https://en.wikipedia.org/wiki/Australian_Mist"
         },
         {
-            "name":  Balinese
-            "link":  https://en.wikipedia.org/wiki/Balinese_cat
+            "name": "Balinese",
+            "link": "https://en.wikipedia.org/wiki/Balinese_cat"
         },
         {
-            "name":  Bambino
-            "link":  https://en.wikipedia.org/wiki/Bambino_cat
+            "name": "Bambino",
+            "link": "https://en.wikipedia.org/wiki/Bambino_cat"
         },
         {
-            "name":  Bengal
-            "link":  https://en.wikipedia.org/wiki/Bengal_cat
+            "name": "Bengal",
+            "link": "https://en.wikipedia.org/wiki/Bengal_cat"
         },
         {
-            "name":  Birman
-            "link":  https://en.wikipedia.org/wiki/Birman
+            "name": "Birman",
+            "link": "https://en.wikipedia.org/wiki/Birman"
         },
         {
-            "name":  Bombay
-            "link":  https://en.wikipedia.org/wiki/Bombay_cat
+            "name": "Bombay",
+            "link": "https://en.wikipedia.org/wiki/Bombay_cat"
         },
         {
-            "name":  Brazilian Shorthair
-            "link":  https://en.wikipedia.org/wiki/Brazilian_Shorthair
+            "name": "Brazilian Shorthair",
+            "link": "https://en.wikipedia.org/wiki/Brazilian_Shorthair"
         },
         {
-            "name":  British Longhair
-            "link":  https://en.wikipedia.org/wiki/British_Longhair
+            "name": "British Longhair",
+            "link": "https://en.wikipedia.org/wiki/British_Longhair"
         },
         {
-            "name":  British Shorthair
-            "link":  https://en.wikipedia.org/wiki/British_Shorthair
+            "name": "British Shorthair",
+            "link": "https://en.wikipedia.org/wiki/British_Shorthair"
         },
         {
-            "name":  Burmese
-            "link":  https://en.wikipedia.org/wiki/Burmese_cat
+            "name": "Burmese",
+            "link": "https://en.wikipedia.org/wiki/Burmese_cat"
         },
         {
-            "name":  Burmilla
-            "link":  https://en.wikipedia.org/wiki/Burmilla
+            "name": "Burmilla",
+            "link": "https://en.wikipedia.org/wiki/Burmilla"
         },
         {
-            "name":  California Spangled
-            "link":  https://en.wikipedia.org/wiki/California_Spangled
+            "name": "California Spangled",
+            "link": "https://en.wikipedia.org/wiki/California_Spangled"
         },
         {
-            "name":  Chantilly-Tiffany
-            "link":  https://en.wikipedia.org/wiki/Chantilly-Tiffany
+            "name": "Chantilly-Tiffany",
+            "link": "https://en.wikipedia.org/wiki/Chantilly-Tiffany"
         },
         {
-            "name":  Chartreux
-            "link":  https://en.wikipedia.org/wiki/Chartreux
+            "name": "Chartreux",
+            "link": "https://en.wikipedia.org/wiki/Chartreux"
         },
         {
-            "name":  Chausie
-            "link":  https://en.wikipedia.org/wiki/Chausie
+            "name": "Chausie",
+            "link": "https://en.wikipedia.org/wiki/Chausie"
         },
         {
-            "name":  Colorpoint Shorthair
-            "link":  https://en.wikipedia.org/wiki/Colorpoint_Shorthair
+            "name": "Colorpoint Shorthair",
+            "link": "https://en.wikipedia.org/wiki/Colorpoint_Shorthair"
         },
         {
-            "name":  Cornish Rex
-            "link":  https://en.wikipedia.org/wiki/Cornish_Rex
+            "name": "Cornish Rex",
+            "link": "https://en.wikipedia.org/wiki/Cornish_Rex"
         },
         {
-            "name":  Cymric
-            "link":  https://en.wikipedia.org/wiki/Cymric_cat
+            "name": "Cymric",
+            "link": "https://en.wikipedia.org/wiki/Cymric_cat"
         },
         {
-            "name":  Cyprus
-            "link":  https://en.wikipedia.org/wiki/Cyprus_cat
+            "name": "Cyprus",
+            "link": "https://en.wikipedia.org/wiki/Cyprus_cat"
         },
         {
-            "name":  Devon Rex
-            "link":  https://en.wikipedia.org/wiki/Devon_Rex
+            "name": "Devon Rex",
+            "link": "https://en.wikipedia.org/wiki/Devon_Rex"
         },
         {
-            "name":  Donskoy
-            "link":  https://en.wikipedia.org/wiki/Donskoy_cat
+            "name": "Donskoy",
+            "link": "https://en.wikipedia.org/wiki/Donskoy_cat"
         },
         {
-            "name":  Dragon Li
-            "link":  https://en.wikipedia.org/wiki/Dragon_Li
+            "name": "Dragon Li",
+            "link": "https://en.wikipedia.org/wiki/Dragon_Li"
         },
         {
-            "name":  Dwelf
-            "link":  https://en.wikipedia.org/wiki/List_of_experimental_cat_breeds#Dwelf
+            "name": "Dwelf",
+            "link": "https://en.wikipedia.org/wiki/List_of_experimental_cat_breeds#Dwelf"
         },
         {
-            "name":  Egyptian Mau
-            "link":  https://en.wikipedia.org/wiki/Egyptian_Mau
+            "name": "Egyptian Mau",
+            "link": "https://en.wikipedia.org/wiki/Egyptian_Mau"
         },
         {
-            "name":  European Shorthair
-            "link":  https://en.wikipedia.org/wiki/European_Shorthair
+            "name": "European Shorthair",
+            "link": "https://en.wikipedia.org/wiki/European_Shorthair"
         },
         {
-            "name":  Exotic Shorthair
-            "link":  https://en.wikipedia.org/wiki/Exotic_Shorthair
+            "name": "Exotic Shorthair",
+            "link": "https://en.wikipedia.org/wiki/Exotic_Shorthair"
         },
         {
-            "name":  Foldex
-            "link":  https://en.wikipedia.org/wiki/Foldex_cat
+            "name": "Foldex",
+            "link": "https://en.wikipedia.org/wiki/Foldex_cat"
         },
         {
-            "name":  German Rex
-            "link":  https://en.wikipedia.org/wiki/German_Rex
+            "name": "German Rex",
+            "link": "https://en.wikipedia.org/wiki/German_Rex"
         },
         {
-            "name":  Havana Brown
-            "link":  https://en.wikipedia.org/wiki/Havana_Brown
+            "name": "Havana Brown",
+            "link": "https://en.wikipedia.org/wiki/Havana_Brown"
         },
         {
-            "name":  Highlander
-            "link":  https://en.wikipedia.org/wiki/Highlander_cat
+            "name": "Highlander",
+            "link": "https://en.wikipedia.org/wiki/Highlander_cat"
         },
         {
-            "name":  Himalayan
-            "link":  https://en.wikipedia.org/wiki/Himalayan_cat
+            "name": "Himalayan",
+            "link": "https://en.wikipedia.org/wiki/Himalayan_cat"
         },
         {
-            "name":  Japanese Bobtail
-            "link":  https://en.wikipedia.org/wiki/Japanese_Bobtail
+            "name": "Japanese Bobtail",
+            "link": "https://en.wikipedia.org/wiki/Japanese_Bobtail"
         },
         {
-            "name":  Javanese
-            "link":  https://en.wikipedia.org/wiki/Javanese_cat
+            "name": "Javanese",
+            "link": "https://en.wikipedia.org/wiki/Javanese_cat"
         },
         {
-            "name":  Kanaani
-            "link":  https://en.wikipedia.org/w/index.php?title=Kanaani_cat&action=edit&redlink=1
+            "name": "Kanaani",
+            "link": "https://en.wikipedia.org/w/index.php?title=Kanaani_cat&action=edit&redlink=1"
         },
         {
-            "name":  Khao Manee
-            "link":  https://en.wikipedia.org/wiki/Khao_Manee
+            "name": "Khao Manee",
+            "link": "https://en.wikipedia.org/wiki/Khao_Manee"
         },
         {
-            "name":  Kinkalow
-            "link":  https://en.wikipedia.org/w/index.php?title=Kinkalow&action=edit&redlink=1
+            "name": "Kinkalow",
+            "link": "https://en.wikipedia.org/w/index.php?title=Kinkalow&action=edit&redlink=1"
         },
         {
-            "name":  Korat
-            "link":  https://en.wikipedia.org/wiki/Korat
+            "name": "Korat",
+            "link": "https://en.wikipedia.org/wiki/Korat"
         },
         {
-            "name":  Korean Bobtail
-            "link":  https://en.wikipedia.org/wiki/Korean_Bobtail
+            "name": "Korean Bobtail",
+            "link": "https://en.wikipedia.org/wiki/Korean_Bobtail"
         },
         {
-            "name":  Kurilian Bobtail
-            "link":  https://en.wikipedia.org/wiki/Kurilian_Bobtail
+            "name": "Kurilian Bobtail",
+            "link": "https://en.wikipedia.org/wiki/Kurilian_Bobtail"
         },
         {
-            "name":  Lambkin
-            "link":  https://en.wikipedia.org/wiki/Lambkin_(cat)
+            "name": "Lambkin",
+            "link": "https://en.wikipedia.org/wiki/Lambkin_(cat)"
         },
         {
-            "name":  LaPerm
-            "link":  https://en.wikipedia.org/wiki/LaPerm
+            "name": "LaPerm",
+            "link": "https://en.wikipedia.org/wiki/LaPerm"
         },
         {
-            "name":  Lykoi
-            "link":  https://en.wikipedia.org/wiki/Lykoi
+            "name": "Lykoi",
+            "link": "https://en.wikipedia.org/wiki/Lykoi"
         },
         {
-            "name":  Maine Coon
-            "link":  https://en.wikipedia.org/wiki/Maine_Coon
+            "name": "Maine Coon",
+            "link": "https://en.wikipedia.org/wiki/Maine_Coon"
         },
         {
-            "name":  Manx
-            "link":  https://en.wikipedia.org/wiki/Manx_cat
+            "name": "Manx",
+            "link": "https://en.wikipedia.org/wiki/Manx_cat"
         },
         {
-            "name":  Mekong Bobtail
-            "link":  https://en.wikipedia.org/wiki/Mekong_Bobtail
+            "name": "Mekong Bobtail",
+            "link": "https://en.wikipedia.org/wiki/Mekong_Bobtail"
         },
         {
-            "name":  Minskin
-            "link":  https://en.wikipedia.org/wiki/Minskin
+            "name": "Minskin",
+            "link": "https://en.wikipedia.org/wiki/Minskin"
         },
         {
-            "name":  Minuet
-            "link":  https://en.wikipedia.org/wiki/Minuet_cat
+            "name": "Minuet",
+            "link": "https://en.wikipedia.org/wiki/Minuet_cat"
         },
         {
-            "name":  Munchkin
-            "link":  https://en.wikipedia.org/wiki/Munchkin_cat
+            "name": "Munchkin",
+            "link": "https://en.wikipedia.org/wiki/Munchkin_cat"
         },
         {
-            "name":  Nebelung
-            "link":  https://en.wikipedia.org/wiki/Nebelung
+            "name": "Nebelung",
+            "link": "https://en.wikipedia.org/wiki/Nebelung"
         },
         {
-            "name":  Norwegian Forest Cat
-            "link":  https://en.wikipedia.org/wiki/Norwegian_Forest_cat
+            "name": "Norwegian Forest Cat",
+            "link": "https://en.wikipedia.org/wiki/Norwegian_Forest_cat"
         },
         {
-            "name":  Ocicat
-            "link":  https://en.wikipedia.org/wiki/Ocicat
+            "name": "Ocicat",
+            "link": "https://en.wikipedia.org/wiki/Ocicat"
         },
         {
-            "name":  Ojos Azules
-            "link":  https://en.wikipedia.org/wiki/Ojos_Azules
+            "name": "Ojos Azules",
+            "link": "https://en.wikipedia.org/wiki/Ojos_Azules"
         },
         {
-            "name":  Oregon Rex
-            "link":  https://en.wikipedia.org/w/index.php?title=Oregon_Rex&action=edit&redlink=1
+            "name": "Oregon Rex",
+            "link": "https://en.wikipedia.org/w/index.php?title=Oregon_Rex&action=edit&redlink=1"
         },
         {
-            "name":  Oriental Bicolor
-            "link":  https://en.wikipedia.org/wiki/Oriental_bicolour
+            "name": "Oriental Bicolor",
+            "link": "https://en.wikipedia.org/wiki/Oriental_bicolour"
         },
         {
-            "name":  Oriental Longhair
-            "link":  https://en.wikipedia.org/wiki/Oriental_Longhair
+            "name": "Oriental Longhair",
+            "link": "https://en.wikipedia.org/wiki/Oriental_Longhair"
         },
         {
-            "name":  Oriental Shorthair
-            "link":  https://en.wikipedia.org/wiki/Oriental_Shorthair
+            "name": "Oriental Shorthair",
+            "link": "https://en.wikipedia.org/wiki/Oriental_Shorthair"
         },
         {
-            "name":  Persian (modern)
-            "link":  https://en.wikipedia.org/wiki/Persian_cat
+            "name": "Persian (modern)",
+            "link": "https://en.wikipedia.org/wiki/Persian_cat"
         },
         {
-            "name":  Persian (traditional)
-            "link":  https://en.wikipedia.org/wiki/Traditional_Persian
+            "name": "Persian (traditional)",
+            "link": "https://en.wikipedia.org/wiki/Traditional_Persian"
         },
         {
-            "name":  Peterbald
-            "link":  https://en.wikipedia.org/wiki/Peterbald
+            "name": "Peterbald",
+            "link": "https://en.wikipedia.org/wiki/Peterbald"
         },
         {
-            "name":  Pixie-bob
-            "link":  https://en.wikipedia.org/wiki/Pixie-bob
+            "name": "Pixie-bob",
+            "link": "https://en.wikipedia.org/wiki/Pixie-bob"
         },
         {
-            "name":  Ragamuffin
-            "link":  https://en.wikipedia.org/wiki/Ragamuffin_cat
+            "name": "Ragamuffin",
+            "link": "https://en.wikipedia.org/wiki/Ragamuffin_cat"
         },
         {
-            "name":  Ragdoll
-            "link":  https://en.wikipedia.org/wiki/Ragdoll
+            "name": "Ragdoll",
+            "link": "https://en.wikipedia.org/wiki/Ragdoll"
         },
         {
-            "name":  Raas
-            "link":  https://en.wikipedia.org/w/index.php?title=Raas_cat&action=edit&redlink=1
+            "name": "Raas",
+            "link": "https://en.wikipedia.org/w/index.php?title=Raas_cat&action=edit&redlink=1"
         },
         {
-            "name":  Russian Blue
-            "link":  https://en.wikipedia.org/wiki/Russian_Blue
+            "name": "Russian Blue",
+            "link": "https://en.wikipedia.org/wiki/Russian_Blue"
         },
         {
-            "name":  Russian White, Russian Black and Russian Tabby
-            "link":  https://en.wikipedia.org/wiki/Russian_White,_Black,_and_Tabby
+            "name": "Russian White, Russian Black and Russian Tabby",
+            "link": "https://en.wikipedia.org/wiki/Russian_White,_Black,_and_Tabby"
         },
         {
-            "name":  Sam Sawet
-            "link":  https://en.wikipedia.org/wiki/Thai_cat
+            "name": "Sam Sawet",
+            "link": "https://en.wikipedia.org/wiki/Thai_cat"
         },
         {
-            "name":  Savannah
-            "link":  https://en.wikipedia.org/wiki/Savannah_cat
+            "name": "Savannah",
+            "link": "https://en.wikipedia.org/wiki/Savannah_cat"
         },
         {
-            "name":  Scottish Fold
-            "link":  https://en.wikipedia.org/wiki/Scottish_Fold
+            "name": "Scottish Fold",
+            "link": "https://en.wikipedia.org/wiki/Scottish_Fold"
         },
         {
-            "name":  Selkirk Rex
-            "link":  https://en.wikipedia.org/wiki/Selkirk_Rex
+            "name": "Selkirk Rex",
+            "link": "https://en.wikipedia.org/wiki/Selkirk_Rex"
         },
         {
-            "name":  Serengeti
-            "link":  https://en.wikipedia.org/wiki/Serengeti_cat
+            "name": "Serengeti",
+            "link": "https://en.wikipedia.org/wiki/Serengeti_cat"
         },
         {
-            "name":  Serrade Petit
-            "link":  https://en.wikipedia.org/w/index.php?title=Serrade_Petit&action=edit&redlink=1
+            "name": "Serrade Petit",
+            "link": "https://en.wikipedia.org/w/index.php?title=Serrade_Petit&action=edit&redlink=1"
         },
         {
-            "name":  Siamese
-            "link":  https://en.wikipedia.org/wiki/Siamese_cat
+            "name": "Siamese",
+            "link": "https://en.wikipedia.org/wiki/Siamese_cat"
         },
         {
-            "name":  Thai
-            "link":  https://en.wikipedia.org/wiki/List_of_cat_breeds#Thai
+            "name": "Thai",
+            "link": "https://en.wikipedia.org/wiki/List_of_cat_breeds#Thai"
         },
         {
-            "name":  Siberian
-            "link":  https://en.wikipedia.org/wiki/Siberian_cat
+            "name": "Siberian",
+            "link": "https://en.wikipedia.org/wiki/Siberian_cat"
         },
         {
-            "name":  Singapura
-            "link":  https://en.wikipedia.org/wiki/Singapura_cat
+            "name": "Singapura",
+            "link": "https://en.wikipedia.org/wiki/Singapura_cat"
         },
         {
-            "name":  Snowshoe
-            "link":  https://en.wikipedia.org/wiki/Snowshoe_cat
+            "name": "Snowshoe",
+            "link": "https://en.wikipedia.org/wiki/Snowshoe_cat"
         },
         {
-            "name":  Sokoke
-            "link":  https://en.wikipedia.org/wiki/Sokoke
+            "name": "Sokoke",
+            "link": "https://en.wikipedia.org/wiki/Sokoke"
         },
         {
-            "name":  Somali
-            "link":  https://en.wikipedia.org/wiki/Somali_cat
+            "name": "Somali",
+            "link": "https://en.wikipedia.org/wiki/Somali_cat"
         },
         {
-            "name":  Sphynx
-            "link":  https://en.wikipedia.org/wiki/Sphynx_cat
+            "name": "Sphynx",
+            "link": "https://en.wikipedia.org/wiki/Sphynx_cat"
         },
         {
-            "name":  Suphalak
-            "link":  https://en.wikipedia.org/wiki/Suphalak
+            "name": "Suphalak",
+            "link": "https://en.wikipedia.org/wiki/Suphalak"
         },
         {
-            "name":  Thai
-            "link":  https://en.wikipedia.org/wiki/Thai_cat
+            "name": "Thai",
+            "link": "https://en.wikipedia.org/wiki/Thai_cat"
         },
         {
-            "name":  Thai Lilac, Thai Blue Point and Thai Lilac Point
-            "link":  https://en.wikipedia.org/wiki/Korat#Thai_Lilac,_Thai_Blue_Point_and_Thai_Lilac_Point
+            "name": "Thai Lilac, Thai Blue Point and Thai Lilac Point",
+            "link": "https://en.wikipedia.org/wiki/Korat#Thai_Lilac,_Thai_Blue_Point_and_Thai_Lilac_Point"
         },
         {
-            "name":  Tonkinese
-            "link":  https://en.wikipedia.org/wiki/Tonkinese_cat
+            "name": "Tonkinese",
+            "link": "https://en.wikipedia.org/wiki/Tonkinese_cat"
         },
         {
-            "name":  Toybob
-            "link":  https://en.wikipedia.org/wiki/Toybob
+            "name": "Toybob",
+            "link": "https://en.wikipedia.org/wiki/Toybob"
         },
         {
-            "name":  Toyger
-            "link":  https://en.wikipedia.org/wiki/Toyger
+            "name": "Toyger",
+            "link": "https://en.wikipedia.org/wiki/Toyger"
         },
         {
-            "name":  Turkish Angora
-            "link":  https://en.wikipedia.org/wiki/Turkish_Angora
+            "name": "Turkish Angora",
+            "link": "https://en.wikipedia.org/wiki/Turkish_Angora"
         },
         {
-            "name":  Turkish Van
-            "link":  https://en.wikipedia.org/wiki/Turkish_Van
+            "name": "Turkish Van",
+            "link": "https://en.wikipedia.org/wiki/Turkish_Van"
         },
         {
-            "name":  Turkish Vankedisi
-            "link":  https://en.wikipedia.org/wiki/Van_cat
+            "name": "Turkish Vankedisi",
+            "link": "https://en.wikipedia.org/wiki/Van_cat"
         },
         {
-            "name":  Ukrainian Levkoy
-            "link":  https://en.wikipedia.org/wiki/Ukrainian_Levkoy
+            "name": "Ukrainian Levkoy",
+            "link": "https://en.wikipedia.org/wiki/Ukrainian_Levkoy"
         },
         {
-            "name":  York Chocolate
-            "link":  https://en.wikipedia.org/wiki/York_Chocolate
+            "name": "York Chocolate",
+            "link": "https://en.wikipedia.org/wiki/York_Chocolate"
         }
     ]
 }
