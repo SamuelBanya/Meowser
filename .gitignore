@@ -1,3 +1,4 @@
 .env
 src/js/test.js
 .log
+node_modules
