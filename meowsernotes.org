@@ -114,3 +114,17 @@ breedImages.forEach((breed) => {
 
 I found a related online JSON linter, and discovered there was a trailing comma:
 - https://jsonformatter.curiousconcept.com/#
+
+<2022-06-11 Sat 19:53>: My goals going forward include the following:
+- Allow the user to pick from the dropdown menu in 'Step 1'
+- Then, allow them to enter an optional phrase
+- Then, attempt to find a cat photo
+- If a photo cannot be found from this site:
+- https://cataas.com/#/
+- Then, default to one of the default ones from the Wikipedia listing as the 'tag' is probably too broad for the site:
+- https://en.wikipedia.org/wiki/List_of_cat_breeds
+- Optional:
+- Maybe include a random one from this example:
+- https://codepen.io/Chanadian/pen/jxRWvg
+- Which is really being derived from 'thecatapi.com' without an API key:
+- https://thecatapi.com/api/images/get?format=src&type=gif
