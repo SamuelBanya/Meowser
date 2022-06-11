@@ -94,3 +94,12 @@ function testRequest() {
 p
         });
 }
+
+
+function obtainCatBreedsFromWikipedia() {
+    let avoid list = []
+    fetch("")
+    // These are the specific results to avoid:
+    if (! breed[0] === "[") {
+
+    }

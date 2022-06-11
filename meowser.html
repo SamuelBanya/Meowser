@@ -24,7 +24,7 @@
               <li>
                 <a href="#" class="nav-link text-secondary">
                   <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use></svg> -->
-                  Meowser: A Web App To Find New Cats To Adopt!
+                  Meowser: The Cat Browser!
                 </a>
               </li>
             </ul>
@@ -32,20 +32,11 @@
           </div>
         </div>
       </div>
-      <!-- Searchbar taken from bbootstrap.com: -->
-      <!-- https://bbbootstrap.com/snippets/awesome-search-bar-hover-button-using-html-and-css-96470765 -->
-      <div class="d-flex justify-content-center h-100">
-        <div class="search">
-          <input type="text" class="search-input" id="zipcodeSearchInput" placeholder="Enter zipcode..." name="">
-            <a href="#" class="search-icon" id="zipcodeSearchButton">
-              <i class="fa fa-search"></i>
-            </a>
-        </div>
-      </div>
     </header>
     <main>
       <section id="leftOptionsMenu" class="menuSection">
-        <h1>Options</h1>
+        <h1>Step 1</h1>
+        <h2>Options:</h2>
         <label for="breed-select">Choose A Breed:</label>
         <select id="breed-select">
           <option value="">Domestic Shorthair</option>
@@ -55,16 +46,18 @@
           <option value="">Siamese</option>
         </select>
       </section>
-      <section id="middleResultsMenu" class="menuSection">
-        <h2>Results</h2>
-        <div id="resultsDiv">
-        </div>
+      <section id="middlePhraseMenu" class="menuSection">
+        <h1>Step 2:</h1>
+        <h2>Add Phrases / Find Cat:</h2>
+        <form>
+          <input id="phraseInput" type="text" placeholder="Enter phrase to add" value=""/>
+          <input id="phraseFormSubmit" type="submit" name="submit" value="Find Cat Photo">
+        </form>
       </section>
-      <section id="rightResultsMap" class="menuSection">
-        <h2>Map</h2>
-        <div id="resultsMap">
-          <!-- <iframe frameborder="0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d49683.37568651638!2d-77.0365184!3d38.8962904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1385703808650"></iframe> -->
-          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14085.02298321255!2d-81.5012646!3d28.0472148!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1654904484240!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <section id="rightResultsMenu" class="menuSection">
+        <h1>Step 3:</h1>
+        <h2>Results:</h2>
+        <div id="resultsDiv">
         </div>
       </section>
     </main>
