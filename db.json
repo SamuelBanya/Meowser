@@ -369,16 +369,10 @@
          "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Oriental_Shorthair_Blue_Eyed_White_cat_%28juvenile%29.jpg/100px-Oriental_Shorthair_Blue_Eyed_White_cat_%28juvenile%29.jpg"
       },
       {
-         "name":"Persian (modern)",
+         "name":"Persian",
          "link":"https://en.wikipedia.org/wiki/Persian_cat",
-         "imageAlt":"Persian, modern",
+         "imageAlt":"Persian",
          "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Persialainen.jpg/100px-Persialainen.jpg"
-      },
-      {
-         "name":"Persian (traditional)",
-         "link":"https://en.wikipedia.org/wiki/Traditional_Persian",
-         "imageAlt":"Traditional Persian",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/SnowyandHazy.jpg/100px-SnowyandHazy.jpg"
       },
       {
          "name":"Peterbald",
@@ -493,12 +487,6 @@
          "link":"https://en.wikipedia.org/wiki/Thai_cat",
          "imageAlt":"Thai",
          "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mimbi3.JPG/100px-Mimbi3.JPG"
-      },
-      {
-         "name":"Thai Lilac, Thai Blue Point and Thai Lilac Point",
-         "link":"https://en.wikipedia.org/wiki/Korat#Thai_Lilac,_Thai_Blue_Point_and_Thai_Lilac_Point",
-         "imageAlt":"Thai Lilac",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Thai_Lilac.jpg/100px-Thai_Lilac.jpg"
       },
       {
          "name":"Tonkinese",

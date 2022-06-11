@@ -11,7 +11,10 @@ function displayWikiCatBreeds() {
     fetch("http://localhost:3000/breeds")
         .then(response => response.json())
         .then(data => {
-            console.log("data: ");
-            console.log(data);
+            console.log("data: ", data);
+            data.forEach((catBreed) => {
+                console.log(`name: ${catBreed["name"]}`);
+            })
+            console.log("name: ", data["name"]);
         })
 }
