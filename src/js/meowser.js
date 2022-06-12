@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
+    // Grab cat breeds from 'db.json':
+    displayWikiCatBreeds();
     let phraseFormSubmit = document.querySelector("#phraseFormSubmit");
     phraseFormSubmit.addEventListener("click", (e) => {
         e.preventDefault();
@@ -11,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(`breedValue: ${breedValue}`);
         console.log(breedValue);
     })
-    displayWikiCatBreeds();
 });
 
 function displayWikiCatBreeds() {
