@@ -143,9 +143,10 @@ The related API in this case is the 'MediaWiki' API:
 For an additional fun layer, I can utilize this API regarding cat facts as well:
 - https://alexwohlbruck.github.io/cat-facts/
 
-<2022-06-12 Sun 13:39>: After doing a bit more research, I found the breakdown page of the 'MediaWiki' related API clients that exist, as well as their related API page:
+<2022-06-12 Sun 13:39>: After doing a bit more research, I found the breakdown page of the 'MediaWiki' related API clients that exist, as well as their related API page, and corresponding sandbox page
 - https://www.mediawiki.org/wiki/API:Client_code
 - https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/mw.Api
+- https://en.wikipedia.org/wiki/Special:ApiSandbox#action=help&format=json&recursivesubmodules=1
 
 This is the more specific JS specific REST API for 'MediaWiki':
 - https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/mw.Rest
@@ -161,3 +162,7 @@ breedWikiLinks.forEach((breedWikiLink) => {
     console.log('"wikiArticleLink": "', breedWikiLink.href, '"');
 })
 #+end_src
+
+<2022-06-12 Sun 14:35>: My current thinking for how the 'View Cat Image(s)' functionality will work is as follows:
+- The web app will attempt to make an API call to the 'MediaWiki' site's REST API
+- If an image is unable to be produced for whatever reason, it will default to whatever is present

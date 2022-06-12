@@ -12,13 +12,38 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let breedSelectTag = document.querySelector("#breed-select");
         let breedLink = breedSelectTag.options[breedSelectTag.selectedIndex].value;
-        breedLink = breedLink.toString().replace(/\s/g, '');
+        let breedName = breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
+        breedName = breedLink.toString().replace(/\s/g, '');
         console.log(`breedLink: ${breedLink}`);
         console.log(breedLink);
-        // Place stored image link into 'resultImage' image in 'rightResultsMenu' section:
-        let resultImage = document.querySelector("#resultImage");
+        console.log(`breedName: ${breedName}`);
+        console.log(breedName);
 
-        // resultImage.src =
+        // Call the 'MediaWiki' with the 'breedLink' you obtained:
+        var apiParams = {
+            action: "query",
+            prop: "images",
+            titles: `${breedName}`,
+            format: "json"
+        };
+
+        let apiURL = breedLink + "?origin=*";
+
+        Object.keys(apiParams).forEach(function(key){apiURL += "&" + key + "=" + apiParams[key];});
+
+        // Call the 'MediaWiki' with the 'breedLink' you obtained:
+        fetch(apiURL)
+            .then(response => response.json())
+            .then(data => {
+                var pages = data.query.pages;
+
+                console.log("pages:");
+                console.log(pages);
+            })
+
+        // If no images are found, then default to using the stored image link in 'db.json' by placing it
+        // into 'resultImage' image in 'rightResultsMenu' section:
+        // let resultImage = document.querySelector("#resultImage");
     })
 
     let catWikiButton = document.querySelector("#catWikiButton");
@@ -30,9 +55,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let breedSelectTag = document.querySelector("#breed-select");
         let breedLink = breedSelectTag.options[breedSelectTag.selectedIndex].value;
-        breedLink = breedLink.toString().replace(/\s/g, '');
+        let breedName = breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
+        breedName = breedLink.toString().replace(/\s/g, '');
         console.log(`breedLink: ${breedLink}`);
         console.log(breedLink);
+        console.log(`breedName: ${breedName}`);
+        console.log(breedName);
         // Make API call to 'MediaWiki' REST API using 'breedLink'
         fetch(`https://cataas.com/cat/${breedValue}`)
             .then(response => {
@@ -42,7 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
             .then(data => {
                 console.log(`data: ${data}`);
             })
-        // https://cataas.com/cat/Tabby
     })
 });
 
