@@ -1,49 +1,34 @@
 
 # Table of Contents
 
-1.  [Meowser](#org8cf1807)
-2.  [Goals](#org337a9b1)
-3.  [Stretch Goals](#org554aeff)
-4.  [Installation](#org8ffc9d6)
+1.  [Meowser](#orge3a9443)
+2.  [Goals](#orgfd4b05e)
+3.  [Installation](#org495b699)
 
 
-<a id="org8cf1807"></a>
+<a id="orge3a9443"></a>
 
 # Meowser
 
-This is an app that allows a user to enter a zipcode, and find cats with specific breeds in a given area
-
-The design focus is heavily influenced by Rover.com, which is a separate website designed for pet owners looking for pet sitters.
+This is an app that allows a user to select a cat breed that was scraped from Wikipedia's list of cat breeds, and then view images of that breed, the related Wikipedia article, or a random fact about cats in general.
 
 
-<a id="org337a9b1"></a>
+<a id="orgfd4b05e"></a>
 
 # Goals
 
 The main goals of this project include the following:
 
-1.  Create a mobile responsive web page using the Bootstrap CSS library with a similar layout to 'Rover.com'
+1.  Allow the user to select a cat breed from a 'select' element
 
-2.  Use the search bar with corresponding search button to search for a pet breed by zip code
+2.  Allow the user to then obtain related images of the cat breed.
 
-3.  Display the results in individual result cards on screen
+3.  Allow the user to view the related Wikipedia article.
 
-4.  Display individual cat results as separate pins on a Google Maps <iframe>
-
-
-<a id="org554aeff"></a>
-
-# Stretch Goals
-
-The related stretch goals for this project include:
-
--   The ability to filter by pet breed
--   A sign in page so that users can be remembered
--   After a user then logs in, they would be given the ability to like a pet, which would then be saved to a 'json.db' database
--   The ability for the user to be able to click a related email address to then externally open up the email address via a 'mail-to' hyperlink
+4.  Allow the user to obtain a random cat fact which is displayed at the bottom of the page.
 
 
-<a id="org8ffc9d6"></a>
+<a id="org495b699"></a>
 
 # Installation
 

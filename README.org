@@ -1,24 +1,15 @@
 * Meowser
-This is an app that allows a user to enter a zipcode, and find cats with specific breeds in a given area
-
-The design focus is heavily influenced by Rover.com, which is a separate website designed for pet owners looking for pet sitters.
+This is an app that allows a user to select a cat breed that was scraped from Wikipedia's list of cat breeds, and then view images of that breed, the related Wikipedia article, or a random fact about cats in general.
 
 * Goals
 The main goals of this project include the following:
-1. Create a mobile responsive web page using the Bootstrap CSS library with a similar layout to 'Rover.com'
+1. Allow the user to select a cat breed from a 'select' element
 
-2. Use the search bar with corresponding search button to search for a pet breed by zip code
+2. Allow the user to then obtain related images of the cat breed.
 
-3. Display the results in individual result cards on screen
+3. Allow the user to view the related Wikipedia article.
 
-4. Display individual cat results as separate pins on a Google Maps <iframe>
-
-* Stretch Goals
-The related stretch goals for this project include:
-- The ability to filter by pet breed
-- A sign in page so that users can be remembered
-- After a user then logs in, they would be given the ability to like a pet, which would then be saved to a 'json.db' database
-- The ability for the user to be able to click a related email address to then externally open up the email address via a 'mail-to' hyperlink
+4. Allow the user to obtain a random cat fact which is displayed at the bottom of the page.
 
 * Installation
 Simply deploy the contents of this directory to the web server of your choice (ex: "Nginx", "Apache HTTP Server", etc.)
