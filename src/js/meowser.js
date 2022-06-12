@@ -11,9 +11,15 @@ function displayWikiCatBreeds() {
     fetch("http://localhost:3000/breeds")
         .then(response => response.json())
         .then(data => {
+            let breedSelectTag = document.querySelector("#breed-select");
+            breedSelectTag.innerHTML = "";
             console.log("data: ", data);
             data.forEach((catBreed) => {
                 console.log(`name: ${catBreed["name"]}`);
+                let optionTag = document.createElement("option");
+                optionTag.value = catBreed["name"];
+                optionTag.textContent = catBreed["name"];
+                breedSelectTag.append(optionTag);
             })
             console.log("name: ", data["name"]);
         })
