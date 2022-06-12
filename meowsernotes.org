@@ -166,3 +166,15 @@ breedWikiLinks.forEach((breedWikiLink) => {
 <2022-06-12 Sun 14:35>: My current thinking for how the 'View Cat Image(s)' functionality will work is as follows:
 - The web app will attempt to make an API call to the 'MediaWiki' site's REST API
 - If an image is unable to be produced for whatever reason, it will default to whatever is present
+
+<2022-06-12 Sun 15:20>: I then utilized this example from the 'MediaWiki' API examples GitHub page so that I can obtain the images from the given Wikipedia article:
+- https://github.com/wikimedia/mediawiki-api-demos/blob/master/javascript/get_page_images.js
+
+<2022-06-12 Sun 15:27>: I wasn't able to get that working yet, but I tried working on making sure the 'Cat Facts API' portion of the project working:
+- https://alexwohlbruck.github.io/cat-facts/docs/
+
+However, I am now facing this particular error:
+#+begin_src js
+Uncaught (in promise) TypeError: Cannot set properties of null (setting 'textContent')
+    at meowser.js:103:50
+#+end_src

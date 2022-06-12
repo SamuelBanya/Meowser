@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Grab cat breeds from 'db.json':
     displayWikiCatBreeds();
 
-
     let catImagesButton = document.querySelector("#catImagesButton");
 
     catImagesButton.addEventListener("click", (e) => {
@@ -31,7 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         Object.keys(apiParams).forEach(function(key){apiURL += "&" + key + "=" + apiParams[key];});
 
-        // Call the 'MediaWiki' with the 'breedLink' you obtained:
         fetch(apiURL)
             .then(response => response.json())
             .then(data => {
@@ -39,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 console.log("pages:");
                 console.log(pages);
-            })
+            });
 
         // If no images are found, then default to using the stored image link in 'db.json' by placing it
         // into 'resultImage' image in 'rightResultsMenu' section:
@@ -71,6 +69,43 @@ document.addEventListener("DOMContentLoaded", () => {
                 console.log(`data: ${data}`);
             })
     })
+
+    let catFactButton = document.querySelector("#catFactButton");
+
+    catFactButton.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        console.log("'catFactButton' button clicked!");
+        fetch("https://cat-fact.herokuapp.com/facts")
+            .then(response => response.json())
+            .then(data => {
+                // console.log("data: ");
+                // Pick a random fact using Math.random() with 4 numbers for 5 index values from 0 to 4:
+                let choiceMax = data.length - 1;
+                console.log(`choiceMax: ${choiceMax}`);
+
+                let choiceMin = 0;
+                // From MDN Docs:
+                // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+
+                let choiceNumber = Math.floor(Math.random() * (choiceMax - choiceMin) + choiceMin);
+                console.log("choiceNumber: ");
+                console.log(choiceNumber);
+
+                let randomChoice = data[choiceNumber];
+                console.log("randomChoice: ");
+                console.log(randomChoice);
+
+                return randomChoice;
+            })
+            .then( () => {
+                let resultsCatFactHeader = document.querySelector("resultsCatFactHeader")
+                resultsCatFactHeader.textContent = "Random Cat Fact: ";
+
+                let resultsCatFactParagraph = document.querySelector("resultsCatFactParagraph");
+                resultsCatFactParagraph.textContent = randomChoice;
+            });
+    });
 });
 
 function displayWikiCatBreeds() {
