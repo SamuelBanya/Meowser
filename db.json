@@ -1,534 +1,585 @@
 {
-   "breeds":[
-      {
-         "name":"Abyssinian",
-         "link":"https://en.wikipedia.org/wiki/Abyssinian_cat",
-         "imageAlt":"Abyssinian",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/100px-Gustav_chocolate.jpg"
-      },
-      {
-         "name":"Aegean",
-         "link":"https://en.wikipedia.org/wiki/Aegean_cat",
-         "imageAlt":"Aegean",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Aegean_cat.jpg/100px-Aegean_cat.jpg"
-      },
-      {
-         "name":"American Bobtail",
-         "link":"https://en.wikipedia.org/wiki/American_Bobtail",
-         "imageAlt":"American Bobtail",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/American_bobtail_2.jpg/100px-American_bobtail_2.jpg"
-      },
-      {
-         "name":"American Curl",
-         "link":"https://en.wikipedia.org/wiki/American_Curl",
-         "imageAlt":"American Curl",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/American_curl_2.jpg/100px-American_curl_2.jpg"
-      },
-      {
-         "name":"American Ringtail",
-         "link":"https://en.wikipedia.org/w/index.php?title=American_Ringtail&action=edit&redlink=1"
-      },
-      {
-         "name":"American Shorthair",
-         "link":"https://en.wikipedia.org/wiki/American_Shorthair",
-         "imageAlt":"American Shorthair",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/American_Shorthair.jpg/100px-American_Shorthair.jpg"
-      },
-      {
-         "name":"American Wirehair",
-         "link":"https://en.wikipedia.org/wiki/American_Wirehair",
-         "imageAlt":"American Wirehair",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/American_Wirehair_-_CFF_cat_show_Heinola_2008-05-04_IMG_8721.JPG/100px-American_Wirehair_-_CFF_cat_show_Heinola_2008-05-04_IMG_8721.JPG"
-      },
-      {
-         "name":"Aphrodite Giant",
-         "link":"https://en.wikipedia.org/wiki/Cyprus_cat#Aphrodite_Giant",
-         "imageAlt":"Aphrodite Giant",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Aphrodite%27s_Giant.jpg/100px-Aphrodite%27s_Giant.jpg"
-      },
-      {
-         "name":"Arabian Mau",
-         "link":"https://en.wikipedia.org/wiki/Arabian_Mau",
-         "imageAlt":"Arabian Mau",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/3yoArabianMau.jpeg/100px-3yoArabianMau.jpeg"
-      },
-      {
-         "name":"Asian",
-         "link":"https://en.wikipedia.org/wiki/Asian_cat",
-         "imageAlt":"Asian",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/BrownVarientAsianCat.JPG/100px-BrownVarientAsianCat.JPG"
-      },
-      {
-         "name":"Asian Semi-longhair",
-         "link":"https://en.wikipedia.org/wiki/Asian_Semi-longhair",
-         "imageAlt":"Asian Semi-longhair",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Tiffanie_at_cat_show.jpg/100px-Tiffanie_at_cat_show.jpg"
-      },
-      {
-         "name":"Australian Mist",
-         "link":"https://en.wikipedia.org/wiki/Australian_Mist",
-         "imageAlt":"Australian Mist",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Australian_Mist.jpg/100px-Australian_Mist.jpg"
-      },
-      {
-         "name":"Balinese",
-         "link":"https://en.wikipedia.org/wiki/Balinese_cat",
-         "imageAlt":"Balinese",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Oskar.jpg/100px-Oskar.jpg"
-      },
-      {
-         "name":"Bengal",
-         "link":"https://en.wikipedia.org/wiki/Bengal_cat",
-         "imageAlt":"Bengal Cat (Fia).jpg",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bengal_Cat_%28Fia%29.jpg/100px-Bengal_Cat_%28Fia%29.jpg"
-      },
-      {
-         "name":"Birman",
-         "link":"https://en.wikipedia.org/wiki/Birman",
-         "imageAlt":"Birman",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Birman2.jpg/100px-Birman2.jpg"
-      },
-      {
-         "name":"Bombay",
-         "link":"https://en.wikipedia.org/wiki/Bombay_cat",
-         "imageAlt":"Bombay",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Close_up_of_a_black_domestic_cat.jpg/100px-Close_up_of_a_black_domestic_cat.jpg"
-      },
-      {
-         "name":"Brazilian Shorthair",
-         "link":"https://en.wikipedia.org/wiki/Brazilian_Shorthair",
-         "imageAlt":"Brazilian Shorthair",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gato_pelo_curto_brasileiro.JPG/100px-Gato_pelo_curto_brasileiro.JPG"
-      },
-      {
-         "name":"British Longhair",
-         "link":"https://en.wikipedia.org/wiki/British_Longhair",
-         "imageAlt":"British Semi-longhair",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/British_Longhair_-_Black_Silver_Shaded.jpg/100px-British_Longhair_-_Black_Silver_Shaded.jpg"
-      },
-      {
-         "name":"British Shorthair",
-         "link":"https://en.wikipedia.org/wiki/British_Shorthair",
-         "imageAlt":"British Shorthair",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Britishblue.jpg/100px-Britishblue.jpg"
-      },
-      {
-         "name":"Burmese",
-         "link":"https://en.wikipedia.org/wiki/Burmese_cat",
-         "imageAlt":"Burmese",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Male_Chocolate_Burmese_Cat.jpg/100px-Male_Chocolate_Burmese_Cat.jpg"
-      },
-      {
-         "name":"Burmilla",
-         "link":"https://en.wikipedia.org/wiki/Burmilla",
-         "imageAlt":"Burmilla",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Male_Burmilla_cat.jpeg/100px-Male_Burmilla_cat.jpeg"
-      },
-      {
-         "name":"California Spangled",
-         "link":"https://en.wikipedia.org/wiki/California_Spangled",
-         "imageAlt":"California Spangled",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Spangled_Cat.jpg/100px-Star_Spangled_Cat.jpg"
-      },
-      {
-         "name":"Chantilly-Tiffany",
-         "link":"https://en.wikipedia.org/wiki/Chantilly-Tiffany",
-         "imageAlt":"Chantilly-Tiffany",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tiffany3.jpg/100px-Tiffany3.jpg"
-      },
-      {
-         "name":"Chartreux",
-         "link":"https://en.wikipedia.org/wiki/Chartreux",
-         "imageAlt":"Chartreux",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Abbaye_fev2006_003.jpg/100px-Abbaye_fev2006_003.jpg"
-      },
-      {
-         "name":"Chausie",
-         "link":"https://en.wikipedia.org/wiki/Chausie",
-         "imageAlt":"Chausie",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Chausiecatexample.jpg/100px-Chausiecatexample.jpg"
-      },
-      {
-         "name":"Colorpoint Shorthair",
-         "link":"https://en.wikipedia.org/wiki/Colorpoint_Shorthair",
-         "imageAlt":"Colorpoint Shorthair",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Jake117.jpg/100px-Jake117.jpg"
-      },
-      {
-         "name":"Cornish Rex",
-         "link":"https://en.wikipedia.org/wiki/Cornish_Rex",
-         "imageAlt":"Cornish Rex",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/BebopsLilacPrince.JPG/100px-BebopsLilacPrince.JPG"
-      },
-      {
-         "name":"Cymric",
-         "link":"https://en.wikipedia.org/wiki/Cymric_cat",
-         "imageAlt":"Cymric",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Cymric_-_Norwegian_forest_cat_presentation_show_Kotka_2009-02-01_IMG_0687.JPG/100px-Cymric_-_Norwegian_forest_cat_presentation_show_Kotka_2009-02-01_IMG_0687.JPG"
-      },
-      {
-         "name":"Cyprus",
-         "link":"https://en.wikipedia.org/wiki/Cyprus_cat",
-         "imageAlt":"Cyprus",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/CyprusShorthair.jpg/100px-CyprusShorthair.jpg"
-      },
-      {
-         "name":"Devon Rex",
-         "link":"https://en.wikipedia.org/wiki/Devon_Rex",
-         "imageAlt":"Devon Rex",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Devon_Rex_Izzy.jpg/100px-Devon_Rex_Izzy.jpg"
-      },
-      {
-         "name":"Donskoy",
-         "link":"https://en.wikipedia.org/wiki/Donskoy_cat",
-         "imageAlt":"Donskoy or Don Sphynx",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Cat_don_sphinx.JPG/100px-Cat_don_sphinx.JPG"
-      },
-      {
-         "name":"Dragon Li",
-         "link":"https://en.wikipedia.org/wiki/Dragon_Li",
-         "imageAlt":"Dragon Li or Chinese Li Hua",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Dragon_Li_-_Li_Hua_Mau1.jpg/100px-Dragon_Li_-_Li_Hua_Mau1.jpg"
-      },
-      {
-         "name":"Egyptian Mau",
-         "link":"https://en.wikipedia.org/wiki/Egyptian_Mau",
-         "imageAlt":"Egyptian Mau",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Egy_mau.jpg/100px-Egy_mau.jpg"
-      },
-      {
-         "name":"European Shorthair",
-         "link":"https://en.wikipedia.org/wiki/European_Shorthair",
-         "imageAlt":"European Shorthair",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/European_shorthair_procumbent_Quincy.jpg/100px-European_shorthair_procumbent_Quincy.jpg"
-      },
-      {
-         "name":"Exotic Shorthair",
-         "link":"https://en.wikipedia.org/wiki/Exotic_Shorthair",
-         "imageAlt":"Exotic Shorthair",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cream_tabby_exotic_cat.jpg/100px-Cream_tabby_exotic_cat.jpg"
-      },
-      {
-         "name":"Foldex",
-         "link":"https://en.wikipedia.org/wiki/Foldex_cat",
-         "imageAlt":"Foldex",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Cachorro_de_Gato_FoldEx_%28%22Belisario_del_Laberinto%22%29.JPG/100px-Cachorro_de_Gato_FoldEx_%28%22Belisario_del_Laberinto%22%29.JPG"
-      },
-      {
-         "name":"German Rex",
-         "link":"https://en.wikipedia.org/wiki/German_Rex",
-         "imageAlt":"German Rex",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/German_Rex_Emi.jpg/100px-German_Rex_Emi.jpg"
-      },
-      {
-         "name":"Havana Brown",
-         "link":"https://en.wikipedia.org/wiki/Havana_Brown",
-         "imageAlt":"Havana Brown",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Havana_Brown.jpg/100px-Havana_Brown.jpg"
-      },
-      {
-         "name":"Highlander",
-         "link":"https://en.wikipedia.org/wiki/Highlander_cat",
-         "imageAlt":"Highlander",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Highlander-7.jpg/100px-Highlander-7.jpg"
-      },
-      {
-         "name":"Himalayan",
-         "link":"https://en.wikipedia.org/wiki/Himalayan_cat",
-         "imageAlt":"Himalayan or Colorpoint Persian",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Chocolate_Himlayan.jpg/100px-Chocolate_Himlayan.jpg"
-      },
-      {
-         "name":"Japanese Bobtail",
-         "link":"https://en.wikipedia.org/wiki/Japanese_Bobtail",
-         "imageAlt":"Japanese Bobtail",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/JapaneseBobtailBlueEyedMi-ke.JPG/100px-JapaneseBobtailBlueEyedMi-ke.JPG"
-      },
-      {
-         "name":"Javanese",
-         "link":"https://en.wikipedia.org/wiki/Javanese_cat",
-         "imageAlt":"Javanese or Colorpoint Longhair",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Javanese_cat.jpg/100px-Javanese_cat.jpg"
-      },
-      {
-         "name":"Khao Manee",
-         "link":"https://en.wikipedia.org/wiki/Khao_Manee",
-         "imageAlt":"Khao Manee",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Khao_Manee_%22ChaWee%22.jpg/100px-Khao_Manee_%22ChaWee%22.jpg"
-      },
-      {
-         "name":"Kinkalow",
-         "link":"https://en.wikipedia.org/w/index.php?title=Kinkalow&action=edit&redlink=1",
-         "imageAlt":"Kinkalow",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tinkerbella.jpg/100px-Tinkerbella.jpg"
-      },
-      {
-         "name":"Korat",
-         "link":"https://en.wikipedia.org/wiki/Korat",
-         "imageAlt":"Korat",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Veda%2Cchat-adulte-m%C3%A2le-race-korat.JPG/100px-Veda%2Cchat-adulte-m%C3%A2le-race-korat.JPG"
-      },
-      {
-         "name":"Korean Bobtail",
-         "link":"https://en.wikipedia.org/wiki/Korean_Bobtail",
-         "imageAlt":"Japanese Bobtail walking.JPG",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Japanese_Bobtail_walking.JPG/100px-Japanese_Bobtail_walking.JPG"
-      },
-      {
-         "name":"Kurilian Bobtail",
-         "link":"https://en.wikipedia.org/wiki/Kurilian_Bobtail",
-         "imageAlt":"Kurilian Bobtail or Kuril Islands Bobtail",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kurilian_bobtail.JPG/100px-Kurilian_bobtail.JPG"
-      },
-      {
-         "name":"LaPerm",
-         "link":"https://en.wikipedia.org/wiki/LaPerm",
-         "imageAlt":"LaPerm",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Laperm_LH_red_tabby.jpg/100px-Laperm_LH_red_tabby.jpg"
-      },
-      {
-         "name":"Lykoi",
-         "link":"https://en.wikipedia.org/wiki/Lykoi",
-         "imageAlt":"Lykoi",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/8-month-old_male_Lykoi.jpg/100px-8-month-old_male_Lykoi.jpg"
-      },
-      {
-         "name":"Maine Coon",
-         "link":"https://en.wikipedia.org/wiki/Maine_Coon",
-         "imageAlt":"Maine Coon",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Maine_Coon_female.jpg/100px-Maine_Coon_female.jpg"
-      },
-      {
-         "name":"Mekong Bobtail",
-         "link":"https://en.wikipedia.org/wiki/Mekong_Bobtail",
-         "imageAlt":"Mekong Bobtail",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Mekong_bobtail_female%2C_Cofein_Pride_cattery.jpg/100px-Mekong_bobtail_female%2C_Cofein_Pride_cattery.jpg"
-      },
-      {
-         "name":"Minskin",
-         "link":"https://en.wikipedia.org/wiki/Minskin",
-         "imageAlt":"Minskin",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Minskin_Kitten_Female_blue_tabby_color-pattern.jpg/100px-Minskin_Kitten_Female_blue_tabby_color-pattern.jpg"
-      },
-      {
-         "name":"Minuet",
-         "link":"https://en.wikipedia.org/wiki/Minuet_cat",
-         "imageAlt":"Minuet",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/White_Gray_Minuet_Cat.png/100px-White_Gray_Minuet_Cat.png"
-      },
-      {
-         "name":"Munchkin",
-         "link":"https://en.wikipedia.org/wiki/Munchkin_cat",
-         "imageAlt":"Munchkin",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Longhairedmunchkin.jpg/100px-Longhairedmunchkin.jpg"
-      },
-      {
-         "name":"Nebelung",
-         "link":"https://en.wikipedia.org/wiki/Nebelung",
-         "imageAlt":"Nebelung",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Nebelung_Male%2C_Aleksandr_van_Song_de_Chine.JPG/100px-Nebelung_Male%2C_Aleksandr_van_Song_de_Chine.JPG"
-      },
-      {
-         "name":"Norwegian Forest Cat",
-         "link":"https://en.wikipedia.org/wiki/Norwegian_Forest_cat",
-         "imageAlt":"Norwegian Forest Cat",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Norskskogkatt_Evita_3.JPG/100px-Norskskogkatt_Evita_3.JPG"
-      },
-      {
-         "name":"Ocicat",
-         "link":"https://en.wikipedia.org/wiki/Ocicat",
-         "imageAlt":"Ocicat",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Ocicat-Charan.jpg/100px-Ocicat-Charan.jpg"
-      },
-      {
-         "name":"Ojos Azules",
-         "link":"https://en.wikipedia.org/wiki/Ojos_Azules",
-         "imageAlt":"Ojos Azules",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Lazuli01.jpg/100px-Lazuli01.jpg"
-      },
-      {
-         "name":"Oregon Rex",
-         "link":"https://en.wikipedia.org/w/index.php?title=Oregon_Rex&action=edit&redlink=1"
-      },
-      {
-         "name":"Oriental Bicolor",
-         "link":"https://en.wikipedia.org/wiki/Oriental_bicolour",
-         "imageAlt":"Oriental Bicolor",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Oriental_shorthair_20070130_caroline.jpg/100px-Oriental_shorthair_20070130_caroline.jpg"
-      },
-      {
-         "name":"Oriental Longhair",
-         "link":"https://en.wikipedia.org/wiki/Oriental_Longhair",
-         "imageAlt":"Oriental Longhair",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/OLH-GIP_Divan_Cesar.jpg/100px-OLH-GIP_Divan_Cesar.jpg"
-      },
-      {
-         "name":"Oriental Shorthair",
-         "link":"https://en.wikipedia.org/wiki/Oriental_Shorthair",
-         "imageAlt":"Oriental Shorthair",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Oriental_Shorthair_Blue_Eyed_White_cat_%28juvenile%29.jpg/100px-Oriental_Shorthair_Blue_Eyed_White_cat_%28juvenile%29.jpg"
-      },
-      {
-         "name":"Persian",
-         "link":"https://en.wikipedia.org/wiki/Persian_cat",
-         "imageAlt":"Persian",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Persialainen.jpg/100px-Persialainen.jpg"
-      },
-      {
-         "name":"Peterbald",
-         "link":"https://en.wikipedia.org/wiki/Peterbald",
-         "imageAlt":"Peterbald",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Tamila_the_lilac_tabby_Peterbald_cat.jpg/100px-Tamila_the_lilac_tabby_Peterbald_cat.jpg"
-      },
-      {
-         "name":"Pixie-bob",
-         "link":"https://en.wikipedia.org/wiki/Pixie-bob",
-         "imageAlt":"Pixie-bob",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jarnac_Bepacific_feb07.jpg/100px-Jarnac_Bepacific_feb07.jpg"
-      },
-      {
-         "name":"Ragamuffin",
-         "link":"https://en.wikipedia.org/wiki/Ragamuffin_cat",
-         "imageAlt":"Ragamuffin",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/20050922AmarilloRes.jpg/100px-20050922AmarilloRes.jpg"
-      },
-      {
-         "name":"Ragdoll",
-         "link":"https://en.wikipedia.org/wiki/Ragdoll",
-         "imageAlt":"Ragdoll",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ragdoll_from_Gatil_Ragbelas.jpg/100px-Ragdoll_from_Gatil_Ragbelas.jpg"
-      },
-      {
-         "name":"Raas",
-         "link":"https://en.wikipedia.org/w/index.php?title=Raas_cat&action=edit&redlink=1",
-         "imageAlt":"Raas",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Kucing_Busok_Jantan.jpg/100px-Kucing_Busok_Jantan.jpg"
-      },
-      {
-         "name":"Russian Blue",
-         "link":"https://en.wikipedia.org/wiki/Russian_Blue",
-         "imageAlt":"Russian Blue",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Russian_Blue_001.gif/100px-Russian_Blue_001.gif"
-      },
-      {
-         "name":"Savannah",
-         "link":"https://en.wikipedia.org/wiki/Savannah_cat",
-         "imageAlt":"Savannah",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Savannah_Cat_portrait.jpg/100px-Savannah_Cat_portrait.jpg"
-      },
-      {
-         "name":"Scottish Fold",
-         "link":"https://en.wikipedia.org/wiki/Scottish_Fold",
-         "imageAlt":"Lilac-coated Scottish Fold",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Lilac_Scottish_Fold.jpg/100px-Lilac_Scottish_Fold.jpg"
-      },
-      {
-         "name":"Selkirk Rex",
-         "link":"https://en.wikipedia.org/wiki/Selkirk_Rex",
-         "imageAlt":"Selkirk Rex",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/PolloSelkirkRex.jpg/100px-PolloSelkirkRex.jpg"
-      },
-      {
-         "name":"Serengeti",
-         "link":"https://en.wikipedia.org/wiki/Serengeti_cat",
-         "imageAlt":"Serengeti",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Serengetimalecat.jpg/100px-Serengetimalecat.jpg"
-      },
-      {
-         "name":"Serrade Petit",
-         "link":"https://en.wikipedia.org/w/index.php?title=Serrade_Petit&action=edit&redlink=1",
-         "imageAlt":"Serrade petit",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Serrade_petit.jpg/100px-Serrade_petit.jpg"
-      },
-      {
-         "name":"Siamese",
-         "link":"https://en.wikipedia.org/wiki/Siamese_cat",
-         "imageAlt":"Siamese",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Siam_lilacpoint.jpg/100px-Siam_lilacpoint.jpg"
-      },
-      {
-         "name":"Singapura",
-         "link":"https://en.wikipedia.org/wiki/Singapura_cat",
-         "imageAlt":"Singapura",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Raffles_singapura_cat.jpg/100px-Raffles_singapura_cat.jpg"
-      },
-      {
-         "name":"Snowshoe",
-         "link":"https://en.wikipedia.org/wiki/Snowshoe_cat",
-         "imageAlt":"Snowshoe",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Snowshoe_%28cat%29.JPG/100px-Snowshoe_%28cat%29.JPG"
-      },
-      {
-         "name":"Sokoke",
-         "link":"https://en.wikipedia.org/wiki/Sokoke",
-         "imageAlt":"Sokoke",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Sokoke_dalili.jpg/100px-Sokoke_dalili.jpg"
-      },
-      {
-         "name":"Somali",
-         "link":"https://en.wikipedia.org/wiki/Somali_cat",
-         "imageAlt":"Somali",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Blue_Somali_kitten_age_3_months.jpg/100px-Blue_Somali_kitten_age_3_months.jpg"
-      },
-      {
-         "name":"Sphynx",
-         "link":"https://en.wikipedia.org/wiki/Sphynx_cat",
-         "imageAlt":"Sphynx",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sphinx2_July_2006.jpg/100px-Sphinx2_July_2006.jpg"
-      },
-      {
-         "name":"Suphalak",
-         "link":"https://en.wikipedia.org/wiki/Suphalak",
-         "imageAlt":"Suphalak",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Suphalak_Female_in_Thailand_named_AumDaengManee.jpg/100px-Suphalak_Female_in_Thailand_named_AumDaengManee.jpg"
-      },
-      {
-         "name":"Thai",
-         "link":"https://en.wikipedia.org/wiki/Thai_cat",
-         "imageAlt":"Thai",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mimbi3.JPG/100px-Mimbi3.JPG"
-      },
-      {
-         "name":"Tonkinese",
-         "link":"https://en.wikipedia.org/wiki/Tonkinese_cat",
-         "imageAlt":"Tonkinese",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Tonkinese.gif/100px-Tonkinese.gif"
-      },
-      {
-         "name":"Toyger",
-         "link":"https://en.wikipedia.org/wiki/Toyger",
-         "imageAlt":"Toyger",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Toyger_-_Cornish_Rex_presentation_show_Riihim%C3%A4ki_2008-11-16_IMG_0101.JPG/100px-Toyger_-_Cornish_Rex_presentation_show_Riihim%C3%A4ki_2008-11-16_IMG_0101.JPG"
-      },
-      {
-         "name":"Turkish Angora",
-         "link":"https://en.wikipedia.org/wiki/Turkish_Angora",
-         "imageAlt":"Turkish Angora",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Turkse_angora.jpg/100px-Turkse_angora.jpg"
-      },
-      {
-         "name":"Turkish Van",
-         "link":"https://en.wikipedia.org/wiki/Turkish_Van",
-         "imageAlt":"Turkish Van",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Turkish_Van_Example2.jpg/100px-Turkish_Van_Example2.jpg"
-      },
-      {
-         "name":"Turkish Vankedisi",
-         "link":"https://en.wikipedia.org/wiki/Van_cat",
-         "imageAlt":"Van cat",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Van_Cat_2_2015.JPG/100px-Van_Cat_2_2015.JPG"
-      },
-      {
-         "name":"Ukrainian Levkoy",
-         "link":"https://en.wikipedia.org/wiki/Ukrainian_Levkoy",
-         "imageAlt":"Ukrainian Levkoy",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Ukrainian_Levkoy_cat.jpg/100px-Ukrainian_Levkoy_cat.jpg"
-      },
-      {
-         "name":"York Chocolate",
-         "link":"https://en.wikipedia.org/wiki/York_Chocolate",
-         "imageAlt":"York Chocolate",
-         "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/York_Chocolate.jpg/100px-York_Chocolate.jpg"
-      }
-   ]
+    "breeds":[
+        {
+            "name":"Abyssinian",
+            "link":"https://en.wikipedia.org/wiki/Abyssinian_cat",
+            "imageAlt":"Abyssinian",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/100px-Gustav_chocolate.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Abyssinian_cat"
+        },
+        {
+            "name":"Aegean",
+            "link":"https://en.wikipedia.org/wiki/Aegean_cat",
+            "imageAlt":"Aegean",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Aegean_cat.jpg/100px-Aegean_cat.jpg",
+"wikiArticleLink": "https://en.wikipedia.org/wiki/Aegean_cat"
+        },
+        {
+            "name":"American Bobtail",
+            "link":"https://en.wikipedia.org/wiki/American_Bobtail",
+            "imageAlt":"American Bobtail",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/American_bobtail_2.jpg/100px-American_bobtail_2.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/American_Bobtail"
+        },
+        {
+            "name":"American Curl",
+            "link":"https://en.wikipedia.org/wiki/American_Curl",
+            "imageAlt":"American Curl",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/American_curl_2.jpg/100px-American_curl_2.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/American_Curl"
+        },
+        {
+            "name":"American Shorthair",
+            "link":"https://en.wikipedia.org/wiki/American_Shorthair",
+            "imageAlt":"American Shorthair",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/American_Shorthair.jpg/100px-American_Shorthair.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/American_Shorthair"
+        },
+        {
+            "name":"American Wirehair",
+            "link":"https://en.wikipedia.org/wiki/American_Wirehair",
+            "imageAlt":"American Wirehair",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/American_Wirehair_-_CFF_cat_show_Heinola_2008-05-04_IMG_8721.JPG/100px-American_Wirehair_-_CFF_cat_show_Heinola_2008-05-04_IMG_8721.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/American_Wirehair"
+        },
+        {
+            "name":"Aphrodite Giant",
+            "link":"https://en.wikipedia.org/wiki/Cyprus_cat#Aphrodite_Giant",
+            "imageAlt":"Aphrodite Giant",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Aphrodite%27s_Giant.jpg/100px-Aphrodite%27s_Giant.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Cyprus_cat#Aphrodite_Giant"
+        },
+        {
+            "name":"Arabian Mau",
+            "link":"https://en.wikipedia.org/wiki/Arabian_Mau",
+            "imageAlt":"Arabian Mau",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/3yoArabianMau.jpeg/100px-3yoArabianMau.jpeg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Arabian_Mau"
+      },
+        {
+            "name":"Asian",
+            "link":"https://en.wikipedia.org/wiki/Asian_cat",
+            "imageAlt":"Asian",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/BrownVarientAsianCat.JPG/100px-BrownVarientAsianCat.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Asian_cat"
+        },
+        {
+            "name":"Asian Semi-longhair",
+            "link":"https://en.wikipedia.org/wiki/Asian_Semi-longhair",
+            "imageAlt":"Asian Semi-longhair",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Tiffanie_at_cat_show.jpg/100px-Tiffanie_at_cat_show.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Asian_Semi-longhair"
+        },
+        {
+            "name":"Australian Mist",
+            "link":"https://en.wikipedia.org/wiki/Australian_Mist",
+            "imageAlt":"Australian Mist",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Australian_Mist.jpg/100px-Australian_Mist.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Australian_Mist"
+        },
+        {
+            "name":"Balinese",
+            "link":"https://en.wikipedia.org/wiki/Balinese_cat",
+            "imageAlt":"Balinese",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Oskar.jpg/100px-Oskar.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Balinese_cat"
+        },
+        {
+            "name":"Bengal",
+            "link":"https://en.wikipedia.org/wiki/Bengal_cat",
+            "imageAlt":"Bengal Cat (Fia).jpg",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bengal_Cat_%28Fia%29.jpg/100px-Bengal_Cat_%28Fia%29.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Bengal_cat"
+        },
+        {
+            "name":"Birman",
+            "link":"https://en.wikipedia.org/wiki/Birman",
+            "imageAlt":"Birman",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Birman2.jpg/100px-Birman2.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Birman"
+        },
+        {
+            "name":"Bombay",
+            "link":"https://en.wikipedia.org/wiki/Bombay_cat",
+            "imageAlt":"Bombay",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Close_up_of_a_black_domestic_cat.jpg/100px-Close_up_of_a_black_domestic_cat.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Bombay_cat"
+        },
+        {
+            "name":"Brazilian Shorthair",
+            "link":"https://en.wikipedia.org/wiki/Brazilian_Shorthair",
+            "imageAlt":"Brazilian Shorthair",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gato_pelo_curto_brasileiro.JPG/100px-Gato_pelo_curto_brasileiro.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Brazilian_Shorthair"
+        },
+        {
+            "name":"British Longhair",
+            "link":"https://en.wikipedia.org/wiki/British_Longhair",
+            "imageAlt":"British Semi-longhair",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/British_Longhair_-_Black_Silver_Shaded.jpg/100px-British_Longhair_-_Black_Silver_Shaded.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/British_Longhair"
+        },
+        {
+            "name":"British Shorthair",
+            "link":"https://en.wikipedia.org/wiki/British_Shorthair",
+            "imageAlt":"British Shorthair",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Britishblue.jpg/100px-Britishblue.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/British_Shorthair"
+        },
+        {
+            "name":"Burmese",
+            "link":"https://en.wikipedia.org/wiki/Burmese_cat",
+            "imageAlt":"Burmese",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Male_Chocolate_Burmese_Cat.jpg/100px-Male_Chocolate_Burmese_Cat.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Burmese_cat"
+        },
+        {
+            "name":"Burmilla",
+            "link":"https://en.wikipedia.org/wiki/Burmilla",
+            "imageAlt":"Burmilla",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Male_Burmilla_cat.jpeg/100px-Male_Burmilla_cat.jpeg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Burmilla"
+        },
+        {
+            "name":"California Spangled",
+            "link":"https://en.wikipedia.org/wiki/California_Spangled",
+            "imageAlt":"California Spangled",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Spangled_Cat.jpg/100px-Star_Spangled_Cat.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/California_Spangled"
+        },
+        {
+            "name":"Chantilly-Tiffany",
+            "link":"https://en.wikipedia.org/wiki/Chantilly-Tiffany",
+            "imageAlt":"Chantilly-Tiffany",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tiffany3.jpg/100px-Tiffany3.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Chantilly-Tiffany"
+        },
+        {
+            "name":"Chartreux",
+            "link":"https://en.wikipedia.org/wiki/Chartreux",
+            "imageAlt":"Chartreux",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Abbaye_fev2006_003.jpg/100px-Abbaye_fev2006_003.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Chartreux"
+        },
+        {
+            "name":"Chausie",
+            "link":"https://en.wikipedia.org/wiki/Chausie",
+            "imageAlt":"Chausie",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Chausiecatexample.jpg/100px-Chausiecatexample.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Chausie"
+        },
+        {
+            "name":"Colorpoint Shorthair",
+            "link":"https://en.wikipedia.org/wiki/Colorpoint_Shorthair",
+            "imageAlt":"Colorpoint Shorthair",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Jake117.jpg/100px-Jake117.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Colorpoint_Shorthair"
+        },
+        {
+            "name":"Cornish Rex",
+            "link":"https://en.wikipedia.org/wiki/Cornish_Rex",
+            "imageAlt":"Cornish Rex",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/BebopsLilacPrince.JPG/100px-BebopsLilacPrince.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Cornish_Rex"
+        },
+        {
+            "name":"Cymric",
+            "link":"https://en.wikipedia.org/wiki/Cymric_cat",
+            "imageAlt":"Cymric",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Cymric_-_Norwegian_forest_cat_presentation_show_Kotka_2009-02-01_IMG_0687.JPG/100px-Cymric_-_Norwegian_forest_cat_presentation_show_Kotka_2009-02-01_IMG_0687.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Cymric_cat"
+        },
+        {
+            "name":"Cyprus",
+            "link":"https://en.wikipedia.org/wiki/Cyprus_cat",
+            "imageAlt":"Cyprus",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/CyprusShorthair.jpg/100px-CyprusShorthair.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Cyprus_cat"
+        },
+        {
+            "name":"Devon Rex",
+            "link":"https://en.wikipedia.org/wiki/Devon_Rex",
+            "imageAlt":"Devon Rex",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Devon_Rex_Izzy.jpg/100px-Devon_Rex_Izzy.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Devon_Rex"
+        },
+        {
+            "name":"Donskoy",
+            "link":"https://en.wikipedia.org/wiki/Donskoy_cat",
+            "imageAlt":"Donskoy or Don Sphynx",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Cat_don_sphinx.JPG/100px-Cat_don_sphinx.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Donskoy_cat"
+        },
+        {
+            "name":"Dragon Li",
+            "link":"https://en.wikipedia.org/wiki/Dragon_Li",
+            "imageAlt":"Dragon Li or Chinese Li Hua",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Dragon_Li_-_Li_Hua_Mau1.jpg/100px-Dragon_Li_-_Li_Hua_Mau1.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Dragon_Li"
+        },
+        {
+            "name":"Egyptian Mau",
+            "link":"https://en.wikipedia.org/wiki/Egyptian_Mau",
+            "imageAlt":"Egyptian Mau",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Egy_mau.jpg/100px-Egy_mau.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Egyptian_Mau"
+        },
+        {
+            "name":"European Shorthair",
+            "link":"https://en.wikipedia.org/wiki/European_Shorthair",
+            "imageAlt":"European Shorthair",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/European_shorthair_procumbent_Quincy.jpg/100px-European_shorthair_procumbent_Quincy.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/European_Shorthair"
+        },
+        {
+            "name":"Exotic Shorthair",
+            "link":"https://en.wikipedia.org/wiki/Exotic_Shorthair",
+            "imageAlt":"Exotic Shorthair",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cream_tabby_exotic_cat.jpg/100px-Cream_tabby_exotic_cat.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Exotic_Shorthair"
+        },
+        {
+            "name":"Foldex",
+            "link":"https://en.wikipedia.org/wiki/Foldex_cat",
+            "imageAlt":"Foldex",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Cachorro_de_Gato_FoldEx_%28%22Belisario_del_Laberinto%22%29.JPG/100px-Cachorro_de_Gato_FoldEx_%28%22Belisario_del_Laberinto%22%29.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Foldex_cat"
+        },
+        {
+            "name":"German Rex",
+            "link":"https://en.wikipedia.org/wiki/German_Rex",
+            "imageAlt":"German Rex",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/German_Rex_Emi.jpg/100px-German_Rex_Emi.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/German_Rex"
+        },
+        {
+            "name":"Havana Brown",
+            "link":"https://en.wikipedia.org/wiki/Havana_Brown",
+            "imageAlt":"Havana Brown",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Havana_Brown.jpg/100px-Havana_Brown.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Havana_Brown"
+        },
+        {
+            "name":"Highlander",
+            "link":"https://en.wikipedia.org/wiki/Highlander_cat",
+            "imageAlt":"Highlander",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Highlander-7.jpg/100px-Highlander-7.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Highlander_cat"
+        },
+        {
+            "name":"Himalayan",
+            "link":"https://en.wikipedia.org/wiki/Himalayan_cat",
+            "imageAlt":"Himalayan or Colorpoint Persian",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Chocolate_Himlayan.jpg/100px-Chocolate_Himlayan.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Himalayan_cat"
+        },
+        {
+            "name":"Japanese Bobtail",
+            "link":"https://en.wikipedia.org/wiki/Japanese_Bobtail",
+            "imageAlt":"Japanese Bobtail",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/JapaneseBobtailBlueEyedMi-ke.JPG/100px-JapaneseBobtailBlueEyedMi-ke.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Japanese_Bobtail"
+        },
+        {
+            "name":"Javanese",
+            "link":"https://en.wikipedia.org/wiki/Javanese_cat",
+            "imageAlt":"Javanese or Colorpoint Longhair",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Javanese_cat.jpg/100px-Javanese_cat.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Javanese_cat"
+        },
+        {
+            "name":"Khao Manee",
+            "link":"https://en.wikipedia.org/wiki/Khao_Manee",
+            "imageAlt":"Khao Manee",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Khao_Manee_%22ChaWee%22.jpg/100px-Khao_Manee_%22ChaWee%22.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Khao_Manee"
+        },
+        {
+            "name":"Korat",
+            "link":"https://en.wikipedia.org/wiki/Korat",
+            "imageAlt":"Korat",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Veda%2Cchat-adulte-m%C3%A2le-race-korat.JPG/100px-Veda%2Cchat-adulte-m%C3%A2le-race-korat.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Korat"
+        },
+        {
+            "name":"Korean Bobtail",
+            "link":"https://en.wikipedia.org/wiki/Korean_Bobtail",
+            "imageAlt":"Japanese Bobtail walking.JPG",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Japanese_Bobtail_walking.JPG/100px-Japanese_Bobtail_walking.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Korean_Bobtail"
+        },
+        {
+            "name":"Kurilian Bobtail",
+            "link":"https://en.wikipedia.org/wiki/Kurilian_Bobtail",
+            "imageAlt":"Kurilian Bobtail or Kuril Islands Bobtail",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kurilian_bobtail.JPG/100px-Kurilian_bobtail.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Kurilian_Bobtail"
+        },
+        {
+            "name":"LaPerm",
+            "link":"https://en.wikipedia.org/wiki/LaPerm",
+            "imageAlt":"LaPerm",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Laperm_LH_red_tabby.jpg/100px-Laperm_LH_red_tabby.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/LaPerm"
+        },
+        {
+            "name":"Lykoi",
+            "link":"https://en.wikipedia.org/wiki/Lykoi",
+            "imageAlt":"Lykoi",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/8-month-old_male_Lykoi.jpg/100px-8-month-old_male_Lykoi.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Lykoi"
+        },
+        {
+            "name":"Maine Coon",
+            "link":"https://en.wikipedia.org/wiki/Maine_Coon",
+            "imageAlt":"Maine Coon",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Maine_Coon_female.jpg/100px-Maine_Coon_female.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Maine_Coon"
+        },
+        {
+            "name":"Mekong Bobtail",
+            "link":"https://en.wikipedia.org/wiki/Mekong_Bobtail",
+            "imageAlt":"Mekong Bobtail",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Mekong_bobtail_female%2C_Cofein_Pride_cattery.jpg/100px-Mekong_bobtail_female%2C_Cofein_Pride_cattery.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Mekong_Bobtail"
+        },
+        {
+            "name":"Minskin",
+            "link":"https://en.wikipedia.org/wiki/Minskin",
+            "imageAlt":"Minskin",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Minskin_Kitten_Female_blue_tabby_color-pattern.jpg/100px-Minskin_Kitten_Female_blue_tabby_color-pattern.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Minskin"
+        },
+        {
+            "name":"Minuet",
+            "link":"https://en.wikipedia.org/wiki/Minuet_cat",
+            "imageAlt":"Minuet",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/White_Gray_Minuet_Cat.png/100px-White_Gray_Minuet_Cat.png",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Minuet_cat"
+        },
+        {
+            "name":"Munchkin",
+            "link":"https://en.wikipedia.org/wiki/Munchkin_cat",
+            "imageAlt":"Munchkin",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Longhairedmunchkin.jpg/100px-Longhairedmunchkin.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Munchkin_cat"
+        },
+        {
+            "name":"Nebelung",
+            "link":"https://en.wikipedia.org/wiki/Nebelung",
+            "imageAlt":"Nebelung",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Nebelung_Male%2C_Aleksandr_van_Song_de_Chine.JPG/100px-Nebelung_Male%2C_Aleksandr_van_Song_de_Chine.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Nebelung"
+        },
+        {
+            "name":"Norwegian Forest Cat",
+            "link":"https://en.wikipedia.org/wiki/Norwegian_Forest_cat",
+            "imageAlt":"Norwegian Forest Cat",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Norskskogkatt_Evita_3.JPG/100px-Norskskogkatt_Evita_3.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Norwegian_Forest_cat"
+        },
+        {
+            "name":"Ocicat",
+            "link":"https://en.wikipedia.org/wiki/Ocicat",
+            "imageAlt":"Ocicat",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Ocicat-Charan.jpg/100px-Ocicat-Charan.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Ocicat"
+        },
+        {
+            "name":"Ojos Azules",
+            "link":"https://en.wikipedia.org/wiki/Ojos_Azules",
+            "imageAlt":"Ojos Azules",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Lazuli01.jpg/100px-Lazuli01.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Ojos_Azules"
+        },
+        {
+            "name":"Oriental Bicolor",
+            "link":"https://en.wikipedia.org/wiki/Oriental_bicolour",
+            "imageAlt":"Oriental Bicolor",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Oriental_shorthair_20070130_caroline.jpg/100px-Oriental_shorthair_20070130_caroline.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Oriental_bicolour"
+        },
+        {
+            "name":"Oriental Longhair",
+            "link":"https://en.wikipedia.org/wiki/Oriental_Longhair",
+            "imageAlt":"Oriental Longhair",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/OLH-GIP_Divan_Cesar.jpg/100px-OLH-GIP_Divan_Cesar.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Oriental_Longhair"
+        },
+        {
+            "name":"Oriental Shorthair",
+            "link":"https://en.wikipedia.org/wiki/Oriental_Shorthair",
+            "imageAlt":"Oriental Shorthair",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Oriental_Shorthair_Blue_Eyed_White_cat_%28juvenile%29.jpg/100px-Oriental_Shorthair_Blue_Eyed_White_cat_%28juvenile%29.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Oriental_Shorthair"
+        },
+        {
+            "name":"Persian",
+            "link":"https://en.wikipedia.org/wiki/Persian_cat",
+            "imageAlt":"Persian",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Persialainen.jpg/100px-Persialainen.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Persian_cat"
+        },
+        {
+            "name":"Peterbald",
+            "link":"https://en.wikipedia.org/wiki/Peterbald",
+            "imageAlt":"Peterbald",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Tamila_the_lilac_tabby_Peterbald_cat.jpg/100px-Tamila_the_lilac_tabby_Peterbald_cat.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Peterbald"
+        },
+        {
+            "name":"Pixie-bob",
+            "link":"https://en.wikipedia.org/wiki/Pixie-bob",
+            "imageAlt":"Pixie-bob",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Jarnac_Bepacific_feb07.jpg/100px-Jarnac_Bepacific_feb07.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Pixie-bob"
+        },
+        {
+            "name":"Ragamuffin",
+            "link":"https://en.wikipedia.org/wiki/Ragamuffin_cat",
+            "imageAlt":"Ragamuffin",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/20050922AmarilloRes.jpg/100px-20050922AmarilloRes.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Ragamuffin_cat"
+        },
+        {
+            "name":"Ragdoll",
+            "link":"https://en.wikipedia.org/wiki/Ragdoll",
+            "imageAlt":"Ragdoll",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ragdoll_from_Gatil_Ragbelas.jpg/100px-Ragdoll_from_Gatil_Ragbelas.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Ragdoll"
+        },
+        {
+            "name":"Russian Blue",
+            "link":"https://en.wikipedia.org/wiki/Russian_Blue",
+            "imageAlt":"Russian Blue",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Russian_Blue_001.gif/100px-Russian_Blue_001.gif",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Russian_Blue"
+        },
+        {
+            "name":"Savannah",
+            "link":"https://en.wikipedia.org/wiki/Savannah_cat",
+            "imageAlt":"Savannah",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Savannah_Cat_portrait.jpg/100px-Savannah_Cat_portrait.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Savannah_cat"
+        },
+        {
+            "name":"Scottish Fold",
+            "link":"https://en.wikipedia.org/wiki/Scottish_Fold",
+            "imageAlt":"Lilac-coated Scottish Fold",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Lilac_Scottish_Fold.jpg/100px-Lilac_Scottish_Fold.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Scottish_Fold"
+        },
+        {
+            "name":"Selkirk Rex",
+            "link":"https://en.wikipedia.org/wiki/Selkirk_Rex",
+            "imageAlt":"Selkirk Rex",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/PolloSelkirkRex.jpg/100px-PolloSelkirkRex.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Selkirk_Rex"
+        },
+        {
+            "name":"Serengeti",
+            "link":"https://en.wikipedia.org/wiki/Serengeti_cat",
+            "imageAlt":"Serengeti",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Serengetimalecat.jpg/100px-Serengetimalecat.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Serengeti_cat"
+        },
+        {
+            "name":"Siamese",
+            "link":"https://en.wikipedia.org/wiki/Siamese_cat",
+            "imageAlt":"Siamese",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Siam_lilacpoint.jpg/100px-Siam_lilacpoint.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Siamese_cat"
+        },
+        {
+            "name":"Singapura",
+            "link":"https://en.wikipedia.org/wiki/Singapura_cat",
+            "imageAlt":"Singapura",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Raffles_singapura_cat.jpg/100px-Raffles_singapura_cat.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Singapura_cat"
+        },
+        {
+            "name":"Snowshoe",
+            "link":"https://en.wikipedia.org/wiki/Snowshoe_cat",
+            "imageAlt":"Snowshoe",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Snowshoe_%28cat%29.JPG/100px-Snowshoe_%28cat%29.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Snowshoe_cat"
+        },
+        {
+            "name":"Sokoke",
+            "link":"https://en.wikipedia.org/wiki/Sokoke",
+            "imageAlt":"Sokoke",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Sokoke_dalili.jpg/100px-Sokoke_dalili.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Sokoke"
+        },
+        {
+            "name":"Somali",
+            "link":"https://en.wikipedia.org/wiki/Somali_cat",
+            "imageAlt":"Somali",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Blue_Somali_kitten_age_3_months.jpg/100px-Blue_Somali_kitten_age_3_months.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Somali_cat"
+        },
+        {
+            "name":"Sphynx",
+            "link":"https://en.wikipedia.org/wiki/Sphynx_cat",
+            "imageAlt":"Sphynx",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sphinx2_July_2006.jpg/100px-Sphinx2_July_2006.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Sphynx_cat"
+        },
+        {
+            "name":"Suphalak",
+            "link":"https://en.wikipedia.org/wiki/Suphalak",
+            "imageAlt":"Suphalak",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Suphalak_Female_in_Thailand_named_AumDaengManee.jpg/100px-Suphalak_Female_in_Thailand_named_AumDaengManee.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Suphalak"
+        },
+        {
+            "name":"Thai",
+            "link":"https://en.wikipedia.org/wiki/Thai_cat",
+            "imageAlt":"Thai",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mimbi3.JPG/100px-Mimbi3.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Thai_cat"
+        },
+        {
+            "name":"Tonkinese",
+            "link":"https://en.wikipedia.org/wiki/Tonkinese_cat",
+            "imageAlt":"Tonkinese",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Tonkinese.gif/100px-Tonkinese.gif",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Tonkinese_cat"
+        },
+        {
+            "name":"Toyger",
+            "link":"https://en.wikipedia.org/wiki/Toyger",
+            "imageAlt":"Toyger",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Toyger_-_Cornish_Rex_presentation_show_Riihim%C3%A4ki_2008-11-16_IMG_0101.JPG/100px-Toyger_-_Cornish_Rex_presentation_show_Riihim%C3%A4ki_2008-11-16_IMG_0101.JPG",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Toyger"
+        },
+        {
+            "name":"Turkish Angora",
+            "link":"https://en.wikipedia.org/wiki/Turkish_Angora",
+            "imageAlt":"Turkish Angora",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Turkse_angora.jpg/100px-Turkse_angora.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Turkish_Angora"
+        },
+        {
+            "name":"Turkish Van",
+            "link":"https://en.wikipedia.org/wiki/Turkish_Van",
+            "imageAlt":"Turkish Van",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Turkish_Van_Example2.jpg/100px-Turkish_Van_Example2.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Turkish_Van"
+        },
+        {
+            "name":"Ukrainian Levkoy",
+            "link":"https://en.wikipedia.org/wiki/Ukrainian_Levkoy",
+            "imageAlt":"Ukrainian Levkoy",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Ukrainian_Levkoy_cat.jpg/100px-Ukrainian_Levkoy_cat.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/Ukrainian_Levkoy"
+        },
+        {
+            "name":"York Chocolate",
+            "link":"https://en.wikipedia.org/wiki/York_Chocolate",
+            "imageAlt":"York Chocolate",
+            "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/York_Chocolate.jpg/100px-York_Chocolate.jpg",
+            "wikiArticleLink": "https://en.wikipedia.org/wiki/York_Chocolate"
+        }
+    ]
 }

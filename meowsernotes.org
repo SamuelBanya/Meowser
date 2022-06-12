@@ -149,3 +149,15 @@ For an additional fun layer, I can utilize this API regarding cat facts as well:
 
 This is the more specific JS specific REST API for 'MediaWiki':
 - https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/mw.Rest
+
+<2022-06-12 Sun 13:51>: I found a more specific set of JavaScript centered examples tailored to the 'MediaWiki' API:
+- https://github.com/wikimedia/mediawiki-api-demos/tree/master/javascript
+
+<2022-06-12 Sun 13:56>: Just in case, here is how to grab the Wikipedia article links from the breed list (https://en.wikipedia.org/wiki/List_of_cat_breeds):
+#+begin_src js
+let breedWikiLinks = document.querySelectorAll("th a");
+
+breedWikiLinks.forEach((breedWikiLink) => {
+    console.log('"wikiArticleLink": "', breedWikiLink.href, '"');
+})
+#+end_src
