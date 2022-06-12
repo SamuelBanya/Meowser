@@ -1,17 +1,36 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Grab cat breeds from 'db.json':
     displayWikiCatBreeds();
-    let phraseFormSubmit = document.querySelector("#phraseFormSubmit");
-    phraseFormSubmit.addEventListener("click", (e) => {
+    let catWikiButton = document.querySelector("#catWikiButton");
+    catWikiButton.addEventListener("click", (e) => {
         e.preventDefault();
-        let phraseInputValue = document.querySelector("#phraseInput").value;
-        console.log(`phraseInputValue: ${phraseInputValue}`);
+
+        console.log("'catWikiButton' button clicked!");
 
         let breedSelectTag = document.querySelector("#breed-select");
+        // Used this reference to be able to drill down into 'select' tag's value:
+        // https://www.javascripttutorial.net/javascript-dom/javascript-select-box/
         let breedValue = breedSelectTag.options[breedSelectTag.selectedIndex].value;
+        // Used this example as a basis on how to use .replace() to rip out
+        // spaces:
+        // https://stackoverflow.com/questions/5963182/how-to-remove-spaces-from-a-string-using-javascript
         breedValue = breedValue.toString().replace(/\s/g, '');
         console.log(`breedValue: ${breedValue}`);
         console.log(breedValue);
+        // Make API call to https://cataas.com/ website with this format:
+        // https://cataas.com/cat/<tag>
+        // More specifically to include 'phraseInputValue':
+        // https://cataas.com/cat/tabby/says/phraseInputValue
+        // fetch(`https://cataas.com/cat/${breedValue}/${phraseInputValue}`)
+        fetch(`https://cataas.com/cat/${breedValue}`)
+            .then(response => {
+                console.log(response);
+                response.json();
+            })
+            .then(data => {
+                console.log(`data: ${data}`);
+            })
+        // https://cataas.com/cat/Tabby
     })
 });
 

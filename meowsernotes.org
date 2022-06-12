@@ -128,3 +128,24 @@ I found a related online JSON linter, and discovered there was a trailing comma:
 - https://codepen.io/Chanadian/pen/jxRWvg
 - Which is really being derived from 'thecatapi.com' without an API key:
 - https://thecatapi.com/api/images/get?format=src&type=gif
+
+** Shifting Focus Of App To Be More Wikipedia Focused
+<2022-06-12 Sun 12:52>: Since the 'catasas.com' site really isn't contingent on having each cat image tagged with a breed, this doesn't help me with my project.
+
+I then did more research and found a better list of free APIs to use:
+- https://github.com/toddmotto/public-apis
+
+So, since I already have a list of cat breeds from Wikipedia, I can then attempt to utilize their API in that case to just grab the related article given the name of the cat breed itself.
+
+The related API in this case is the 'MediaWiki' API:
+- https://www.mediawiki.org/wiki/API:Get_the_contents_of_a_page#Method_3:_Use_the_TextExtracts_API
+
+For an additional fun layer, I can utilize this API regarding cat facts as well:
+- https://alexwohlbruck.github.io/cat-facts/
+
+<2022-06-12 Sun 13:39>: After doing a bit more research, I found the breakdown page of the 'MediaWiki' related API clients that exist, as well as their related API page:
+- https://www.mediawiki.org/wiki/API:Client_code
+- https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/mw.Api
+
+This is the more specific JS specific REST API for 'MediaWiki':
+- https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/mw.Rest
