@@ -1,8 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
     let phraseFormSubmit = document.querySelector("#phraseFormSubmit");
     phraseFormSubmit.addEventListener("click", (e) => {
+        e.preventDefault();
         let phraseInputValue = document.querySelector("#phraseInput").value;
         console.log(`phraseInputValue: ${phraseInputValue}`);
+
+        let breedSelectTag = document.querySelector("#breed-select");
+        let breedValue = breedSelectTag.options[breedSelectTag.selectedIndex].value;
+        console.log(`breedValue: ${breedValue}`);
+        console.log(breedValue);
     })
     displayWikiCatBreeds();
 });
