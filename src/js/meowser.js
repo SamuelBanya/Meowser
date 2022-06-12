@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let breedSelectTag = document.querySelector("#breed-select");
         let breedValue = breedSelectTag.options[breedSelectTag.selectedIndex].value;
+        breedValue = breedValue.toString().replace(/\s/g, '');
         console.log(`breedValue: ${breedValue}`);
         console.log(breedValue);
     })
