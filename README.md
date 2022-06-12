@@ -1,19 +1,19 @@
 
 # Table of Contents
 
-1.  [Meowser](#orge3a9443)
-2.  [Goals](#orgfd4b05e)
-3.  [Installation](#org495b699)
+1.  [Meowser](#org0d87ed9)
+2.  [Goals](#orgadd838f)
+3.  [Installation](#orgc49ede0)
 
 
-<a id="orge3a9443"></a>
+<a id="org0d87ed9"></a>
 
 # Meowser
 
-This is an app that allows a user to select a cat breed that was scraped from Wikipedia's list of cat breeds, and then view images of that breed, the related Wikipedia article, or a random fact about cats in general.
+This is a web app that allows a user to select a cat breed that was scraped from Wikipedia's list of cat breeds, and then view images of that breed, the related Wikipedia article, or a random fact about cats in general.
 
 
-<a id="orgfd4b05e"></a>
+<a id="orgadd838f"></a>
 
 # Goals
 
@@ -28,7 +28,7 @@ The main goals of this project include the following:
 4.  Allow the user to obtain a random cat fact which is displayed at the bottom of the page.
 
 
-<a id="org495b699"></a>
+<a id="orgc49ede0"></a>
 
 # Installation
 

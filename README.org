@@ -1,5 +1,5 @@
 * Meowser
-This is an app that allows a user to select a cat breed that was scraped from Wikipedia's list of cat breeds, and then view images of that breed, the related Wikipedia article, or a random fact about cats in general.
+This is a web app that allows a user to select a cat breed that was scraped from Wikipedia's list of cat breeds, and then view images of that breed, the related Wikipedia article, or a random fact about cats in general.
 
 * Goals
 The main goals of this project include the following:
