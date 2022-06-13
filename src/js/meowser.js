@@ -30,7 +30,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
         Object.keys(apiParams).forEach(function(key){apiURL += "&" + key + "=" + apiParams[key];});
 
-        fetch(apiURL)
+        fetch(apiURL, {
+            method: "GET",
+            headers: {
+                "Access-Control-Allow-Origin": "*"
+            }
+        })
             .then(response => response.json())
             .then(data => {
                 var pages = data.query.pages;
@@ -60,7 +65,12 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(`breedName: ${breedName}`);
         console.log(breedName);
         // Make API call to 'MediaWiki' REST API using 'breedLink'
-        fetch(`https://cataas.com/cat/${breedValue}`)
+        fetch(`https://cataas.com/cat/${breedName}`, {
+            method: "GET",
+            headers: {
+                "Access-Control-Allow-Origin": "*"
+            }
+        })
             .then(response => {
                 console.log(response);
                 response.json();
