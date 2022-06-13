@@ -96,14 +96,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 console.log("randomChoice: ");
                 console.log(randomChoice);
 
-                return randomChoice;
-            })
-            .then( () => {
-                let resultsCatFactHeader = document.querySelector("resultsCatFactHeader")
+                let resultsCatFactHeader = document.querySelector("#resultsCatFactHeader")
+                console.log("resultsCatFactHeader: ");
+                console.log(resultsCatFactHeader);
                 resultsCatFactHeader.textContent = "Random Cat Fact: ";
 
-                let resultsCatFactParagraph = document.querySelector("resultsCatFactParagraph");
-                resultsCatFactParagraph.textContent = randomChoice;
+                let resultsCatFactParagraph = document.querySelector("#resultsCatFactParagraph");
+                resultsCatFactParagraph.textContent = randomChoice["text"];
             });
     });
 });
