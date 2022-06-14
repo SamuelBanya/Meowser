@@ -38,7 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
             method: "GET",
             headers: {
                 "Access-Control-Allow-Origin": "*",
-                "mode": "no-cors"
+                "Access-Control-Allow-Methods": "GET,HEAD,OPTIONS,POST,PUT",
+                "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
             },
         })
             .then(response => response.json())

@@ -207,3 +207,18 @@ I then decided to instead focus on design efforts, and utilized 'Palleton' to cr
 
 <2022-06-13 Mon 20:26>: I also tried to get a 'CORS' browser extension but it simply isn't working to resolve the 'CORS' issue present unfortunately:
 - https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
+
+<2022-06-14 Tue 18:13>: I tried to do more research on the 'CORS' issue present and found this Stack Overflow post:
+- https://stackoverflow.com/questions/32500073/request-header-field-access-control-allow-headers-is-not-allowed-by-itself-in-pr
+
+I tried applying it to the project via this snippet, but this still didn't resolve the problem:
+#+begin_src js
+        fetch(apiURL, {
+            method: "GET",
+            headers: {
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "GET,HEAD,OPTIONS,POST,PUT",
+                "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+            },
+        })
+#+end_src
