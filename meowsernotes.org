@@ -202,5 +202,8 @@ Some 'proxy' web apps to use:
         })
 #+end_src
 
-I decided to instead focus on design efforts, and utilized 'Palleton' to create a central color scheme around the colors of green, black, sand, and silver:
+I then decided to instead focus on design efforts, and utilized 'Palleton' to create a central color scheme around the colors of green, black, sand, and silver:
 - https://paletton.com/#uid=31b1f1k00tA2wr604o10mj11wexk632C529t3H4j8C1Mb018kAb++cyYLjxZq++GC++vT
+
+<2022-06-13 Mon 20:26>: I also tried to get a 'CORS' browser extension but it simply isn't working to resolve the 'CORS' issue present unfortunately:
+- https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en

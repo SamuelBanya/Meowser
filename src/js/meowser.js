@@ -9,7 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         console.log("'catImagesButton' button clicked!");
 
-        let breedSelectTag = document.querySelector("#breed-select");
+        let breedSelectTag = document.querySelector("#breedSelect");
+        console.log(`breedSelectTag: ${breedSelectTag}`);
+        console.log(breedSelectTag);
         let breedLink = breedSelectTag.options[breedSelectTag.selectedIndex].value;
         let breedName = breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
         breedName = breedLink.toString().replace(/\s/g, '');
@@ -36,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             method: "GET",
             headers: {
                 "Access-Control-Allow-Origin": "*",
-                "mode": "cors"
+                "mode": "no-cors"
             },
         })
             .then(response => response.json())
