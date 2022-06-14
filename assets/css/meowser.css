@@ -3,7 +3,7 @@
 }
 
 #appTitle {
-  color: #2CFF00;
+  color: #FF004D;
 }
 
 #breedSelect {
@@ -56,7 +56,6 @@
   color:#fff;
 }
 .search-icon{
-
   height: 50px;
   width: 50px;
   float: right;
@@ -72,5 +71,6 @@
 }
 
 body {
-  color: #74726E;
+  color: #080906;
+  background-color: #FE6392;
 }
