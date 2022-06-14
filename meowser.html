@@ -11,18 +11,18 @@
   </head>
   <body>
     <header>
-      <div class="px-3 py-2 bg-info text-black">
+      <div class="px-3 py-2 bg-site-header">
         <div class="container d-flex flex-wrap justify-content-center">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none">
               <!-- <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg> -->
               <img alt="" src="images/pawprint.png" width="40" height="32"/>
             </a>
             <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
               <li>
-                <a href="#" class="nav-link text-secondary">
+                <a href="#" class="nav-link">
                   <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use></svg> -->
-                  Meowser: The Cat Browser!
+                  <h1 id="appTitle">Meowser: The Cat Browser!</h1>
                 </a>
               </li>
             </ul>
@@ -33,10 +33,9 @@
     </header>
     <main>
       <section id="leftBreedsMenu" class="menuSection">
-        <h1>Step 1</h1>
-        <h2>Breeds:</h2>
-        <label for="breed-select">Choose A Breed:</label>
-        <select id="breed-select">
+        <h1>Breeds:</h1>
+        <label for="breedSelect">Choose A Breed:</label>
+        <select class="form-select" id="breedSelect">
           <option value="">Domestic Shorthair</option>
           <option value="">Domestic Longhair</option>
           <option value="">Tabby</option>
@@ -45,17 +44,15 @@
         </select>
       </section>
       <section id="middlePhraseMenu" class="menuSection">
-        <h1>Step 2:</h1>
-        <h2>Click Buttons</h2>
+        <h1>Buttons:</h1>
         <form>
-          <input id="catImagesButton" type="submit" name="submit" value="View Cat Image(s)">
-          <input id="catWikiButton" type="submit" name="submit" value="View Wikipedia Article">
-          <input id="catFactButton" type="submit" name="submit" value="View Random Cat Fact">
+          <input id="catImagesButton" class="btn btn-success" type="submit" name="submit" value="View Cat Image(s)">
+          <input id="catWikiButton" class="btn btn-success" type="submit" name="submit" value="View Wikipedia Article">
+          <input id="catFactButton" class="btn btn-success" type="submit" name="submit" value="View Random Cat Fact">
         </form>
       </section>
       <section id="rightResultsMenu" class="menuSection">
-        <h1>Step 3:</h1>
-        <h2>Results:</h2>
+        <h1>Results:</h1>
         <div id="resultsDiv">
           <img alt="" src="" id="resultImage"/>
           <h2 id="resultsCatFactHeader"></h2>

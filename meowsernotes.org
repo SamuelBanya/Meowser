@@ -178,3 +178,29 @@ However, I am now facing this particular error:
 Uncaught (in promise) TypeError: Cannot set properties of null (setting 'textContent')
     at meowser.js:103:50
 #+end_src
+
+<2022-06-13 Mon 18:43>: I am still facing the annoying CORS error:
+#+begin_src bash
+Access to fetch at 'https://en.wikipedia.org/wiki/Abyssinian_cat?origin=*&action=query&prop=images&titles=https://en.wikipedia.org/wiki/Abyssinian_cat&format=json' from origin 'null' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+#+end_src
+
+With some research, you can use a middle proxy in this scenario as per this article:
+- https://diyifang.medium.com/no-access-control-allow-origin-header-is-present-on-the-requested-resource-when-fetching-api-32fdc56efd0f
+
+Some 'proxy' web apps to use:
+- https://cors-anywhere.herokuapp.com/
+- https://api.allorigins.win/raw?url=
+
+<2022-06-13 Mon 19:55>: Since I'm still a bit struggling to figure out the CORS issue even with my attempt below:
+#+begin_src js
+        fetch(apiURL, {
+            method: "GET",
+            headers: {
+                "Access-Control-Allow-Origin": "*",
+                "mode": "cors"
+            },
+        })
+#+end_src
+
+I decided to instead focus on design efforts, and utilized 'Palleton' to create a central color scheme around the colors of green, black, sand, and silver:
+- https://paletton.com/#uid=31b1f1k00tA2wr604o10mj11wexk632C529t3H4j8C1Mb018kAb++cyYLjxZq++GC++vT

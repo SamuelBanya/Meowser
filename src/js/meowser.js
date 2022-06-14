@@ -30,11 +30,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
         Object.keys(apiParams).forEach(function(key){apiURL += "&" + key + "=" + apiParams[key];});
 
+        console.log(`apiURL: ${apiURL}`);
+
         fetch(apiURL, {
             method: "GET",
             headers: {
-                "Access-Control-Allow-Origin": "*"
-            }
+                "Access-Control-Allow-Origin": "*",
+                "mode": "cors"
+            },
         })
             .then(response => response.json())
             .then(data => {
@@ -56,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         console.log("'catWikiButton' button clicked!");
 
-        let breedSelectTag = document.querySelector("#breed-select");
+        let breedSelectTag = document.querySelector("#breedSelect");
         let breedLink = breedSelectTag.options[breedSelectTag.selectedIndex].value;
         let breedName = breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
         breedName = breedLink.toString().replace(/\s/g, '');
@@ -121,7 +124,7 @@ function displayWikiCatBreeds() {
     fetch("http://localhost:3000/breeds")
         .then(response => response.json())
         .then(data => {
-            let breedSelectTag = document.querySelector("#breed-select");
+            let breedSelectTag = document.querySelector("#breedSelect");
             breedSelectTag.innerHTML = "";
             console.log("data: ", data);
             data.forEach((catBreed) => {

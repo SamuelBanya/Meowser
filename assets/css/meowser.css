@@ -2,9 +2,24 @@
   text-align: center;
 }
 
+#appTitle {
+  color: #2CFF00;
+}
+
+#breedSelect {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.bg-site-header {
+  background-color: #3E3539;
+}
+
 .menuSection {
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .search{
@@ -54,4 +69,8 @@
 }
 .search a:link{
   text-decoration: none;
+}
+
+body {
+  color: #74726E;
 }
