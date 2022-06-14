@@ -86,7 +86,10 @@ document.addEventListener("DOMContentLoaded", () => {
             })
             .then(data => {
                 console.log(`data: ${data}`);
-                // Place wikipedia article contents into <iframe> within 'resultsCatFactParagraph' location
+                // Set the contents of 'resultsHeader' and 'resultsParagraph' to a blank string on each run:
+                let resultsHeader = document.querySelector("#resultsHeader");
+                let resultsParagraph = document.querySelector("#resultsParagraph");
+                // Place wikipedia article contents into <iframe> within 'resultsParagraph' location
             })
     })
 
@@ -116,13 +119,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 console.log("randomChoice: ");
                 console.log(randomChoice);
 
-                let resultsCatFactHeader = document.querySelector("#resultsCatFactHeader")
-                console.log("resultsCatFactHeader: ");
-                console.log(resultsCatFactHeader);
-                resultsCatFactHeader.textContent = "Random Cat Fact: ";
+                let resultsHeader = document.querySelector("#resultsHeader")
+                console.log("resultsHeader: ");
+                console.log(resultsHeader);
+                resultsHeader.textContent = "Random Cat Fact: ";
 
-                let resultsCatFactParagraph = document.querySelector("#resultsCatFactParagraph");
-                resultsCatFactParagraph.textContent = randomChoice["text"];
+                let resultsParagraph = document.querySelector("#resultsParagraph");
+                resultsParagraph.textContent = randomChoice["text"];
             });
     });
 });
