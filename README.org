@@ -29,3 +29,10 @@ ln -s /etc/sites-available/meowser /etc/sites-enabled/meowser
 #+end_src
 - You will then have to configure the DNS of the website itself to then be able to have its 'AAA' record point to the desired website accordingly
 - NOTE: If this is not done, then you will have to specify the IP address and port which is not user-friendly
+
+* References
+Image credits:
+- https://en.wikipedia.org/wiki/List_of_cat_breeds
+
+Image gallery provided by 'Fancybox' JS library:
+- http://fancybox.net/

@@ -53,6 +53,9 @@ document.addEventListener("DOMContentLoaded", () => {
         // If no images are found, then default to using the stored image link in 'db.json' by placing it
         // into 'resultImage' image in 'rightResultsMenu' section:
         // let resultImage = document.querySelector("#resultImage");
+
+        // Display the images in a 'Fancybox' gallery using this pattern:
+        // picture_img_tag = str('<a data-fancybox="gallery" href="' + str(regular_image_version) + '" data-fancybox="' + str(current_filename) + '" data-caption="' + str(current_filename) + '"><img src="' + str(thumb_image_version) + '"/></a>')
     })
 
     let catWikiButton = document.querySelector("#catWikiButton");
@@ -83,6 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
             })
             .then(data => {
                 console.log(`data: ${data}`);
+                // Place wikipedia article contents into <iframe> within 'resultsCatFactParagraph' location
             })
     })
 
