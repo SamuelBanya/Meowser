@@ -222,3 +222,26 @@ I tried applying it to the project via this snippet, but this still didn't resol
             },
         })
 #+end_src
+
+<2022-06-15 Wed 19:24>: I then realized that the API URL was absolutely incorrect.
+
+The desireable example URL is the following:
+- https://en.wikipedia.org/w/api.php?origin=*&action=query&prop=images&titles=Abyssinian_cat&format=json
+
+This means that I would need to rip out the 'titles' parameter from the corresponding Wikipedia article so that I am only left with the 'titles' parameter value:
+- https://en.wikipedia.org/wiki/Abyssinian_cat
+
+I did this by converting the link itself, 'breedLink' to a string with the .toString() method, and then used a .replace() statement afterwards to replace the first portion of the link, '' with a space:
+#+begin_src js
+let splitBreedName = breedLink.toString().replace("https://en.wikipedia.org/wiki/", " ");
+#+end_src
+
+<2022-06-15 Wed 19:28>: I then later faced a weird issue involving space characters in which the returned 'imageTitle' from the fixed API call would sometimes return a file name that had a space present such as the following:
+#+begin_src text
+File:Gustav chocolate.jpg
+#+end_src
+
+To compensate for this, I had to use the global '/g' flag to indicate that I wanted to replace the entire string's contents of any matched space with a '%20' sequence so that I can later utilize it as a URL since URLs do not utilize spaces:
+#+begin_src js
+imageTitle = imageTitle.replace(/ /g, "%20");
+#+end_src

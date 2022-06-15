@@ -65,17 +65,63 @@ document.addEventListener("DOMContentLoaded", () => {
     })
       .then(response => response.json())
       .then(data => {
-        var imagesObj = data.query.pages;
+        let imagesObj = data.query.pages;
         console.log("imagesObj:");
         console.log(imagesObj);
 
+        let imageObjArray;
+
+        for (let imageObj in imagesObj) {
+          console.log("imageObj: ");
+          console.log(imageObj);
+          imageObjArray = imagesObj[imageObj]["images"];
+          console.log("imageObjArray (inside for loop): ");
+          console.log(imageObjArray);
+        }
+
+        console.log("imageObjArray (outside of for loop): ");
+        console.log(imageObjArray);
+
+        let imageLinkArray = [];
+
+        imageObjArray.forEach ((imageObjEl) => {
+          let imageTitle = imageObjEl["title"];
+          // Desired format:
+          // breedLink + '#/media/' + imageTitle
+          imageTitle = imageTitle.toString();
+          imageTitle = imageTitle.replace(/ /g, "%20");
+          console.log("imageTitle: ");
+          console.log(imageTitle);
+          let imageLink = breedLink + '#/media/' + imageTitle;
+          // Replace any space with '%20' so the URL can be used for later use:
+          imageLinkArray.push(imageLink);
+        });
+
+
+        // Place them onto the DOM within the '#resultsDiv':
+        let resultsDiv = document.querySelector("#resultsDiv");
+
+        let imagesHeader = document.createElement("h2");
+        imagesHeader.textContent = "Image Gallery";
+        imagesHeader.id = "imagesHeader";
+        resultsDiv.append(imagesHeader);
+
+        let resultsImagesDiv = document.createElement("div");
+        resultsImagesDiv.id = "resultsImagesDiv";
+        imagesHeader.append(resultsImagesDiv);
+
+        console.log("imageLinkArray: ");
+        console.log(imageLinkArray);
+
+        imageLinkArray.forEach((imageLink) => {
+          console.log(`imageLink: ${imageLink}`);
+          let catImageLink = document.createElement("img");
+          catImageLink.src = imageLink;
+          console.log(`catImageLink: ${catImageLink}`);
+          resultsImagesDiv.append(catImageLink);
+        });
 
       });
-
-    // If no images are found, then default to using the stored image link in 'db.json' by placing it
-    // into 'resultImage' image in 'rightResultsMenu' section:
-    // let resultImage = document.querySelector("#resultImage");
-
     // Display the images in a 'Fancybox' gallery using this pattern:
     // picture_img_tag = str('<a data-fancybox="gallery" href="' + str(regular_image_version) + '" data-fancybox="' + str(current_filename) + '" data-caption="' + str(current_filename) + '"><img src="' + str(thumb_image_version) + '"/></a>')
   })
