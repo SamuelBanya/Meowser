@@ -28,19 +28,36 @@ document.addEventListener("DOMContentLoaded", () => {
             format: "json"
         };
 
-        let apiURL = breedLink + "?origin=*";
+      // https://en.wikipedia.org/wiki/Abyssinian_cat
+      // let splitURL = breedLink.split("https://en.wikipedia.org/wiki/");
+      // console.log("splitURL: ", splitURL);
+      // This link works in browser:
+      // https://en.wikipedia.org/w/api.php?origin=*&action=query&prop=images&titles=Abyssinian_cat&format=json
+      console.log("breedLink: ", breedLink);
+      let splitURL = breedLink.toString().replace("https://en.wikipedia.org/wiki/", " ");
+      console.log("splitURL: ", splitURL);
+
+      let apiURL = breedLink + "?origin=*";
+
+      // Separate out the URL so that it cuts off the 'https://en.wikipedia.org/wiki/' section:
+      // Ex:
+      // https://en.wikipedia.org/wiki/Abyssinian_cat
+      // URL that actually works:
+      // https://en.wikipedia.org/w/api.php?origin=*&action=query&prop=images&titles=Abyssinian_cat&format=json
 
         Object.keys(apiParams).forEach(function(key){apiURL += "&" + key + "=" + apiParams[key];});
 
         console.log(`apiURL: ${apiURL}`);
 
         fetch(apiURL, {
-            method: "GET",
+          method: "GET"
+          /*
             headers: {
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Methods": "GET,HEAD,OPTIONS,POST,PUT",
                 "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
-            },
+                },
+                */
         })
             .then(response => response.json())
             .then(data => {

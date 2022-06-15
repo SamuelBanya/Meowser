@@ -1,5 +1,12 @@
 {
-    "breeds":[
+  "breeds":[
+    {
+      "name": "Example",
+      "link": "https://en.wikipedia.org/w/api.php",
+      "imageAlt": "Example",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/100px-Gustav_chocolate.jpg",
+      "wikiArticleLink": "https://en.wikipedia.org/w/api.php"
+    },
         {
             "name":"Abyssinian",
             "link":"https://en.wikipedia.org/wiki/Abyssinian_cat",
