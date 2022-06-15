@@ -18,13 +18,20 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(`breedLink: ${breedLink}`);
         console.log(breedLink);
         console.log(`breedName: ${breedName}`);
-        console.log(breedName);
+      console.log(breedName);
+
+      console.log("breedLink: ", breedLink);
+      console.log(`typeof(breedLink): ${typeof(breedLink)}`);
+      let splitBreedName = breedLink.toString().replace("https://en.wikipedia.org/wiki/", " ");
+      console.log("splitBreedName: ", splitBreedName);
+
+      let wikiURL = "https://en.wikipedia.org/w/api.php";
 
         // Call the 'MediaWiki' with the 'breedLink' you obtained:
         var apiParams = {
             action: "query",
             prop: "images",
-            titles: `${breedName}`,
+            titles: `${splitBreedName}`,
             format: "json"
         };
 
@@ -33,11 +40,8 @@ document.addEventListener("DOMContentLoaded", () => {
       // console.log("splitURL: ", splitURL);
       // This link works in browser:
       // https://en.wikipedia.org/w/api.php?origin=*&action=query&prop=images&titles=Abyssinian_cat&format=json
-      console.log("breedLink: ", breedLink);
-      let splitURL = breedLink.toString().replace("https://en.wikipedia.org/wiki/", " ");
-      console.log("splitURL: ", splitURL);
 
-      let apiURL = breedLink + "?origin=*";
+      let apiURL = wikiURL + "?origin=*";
 
       // Separate out the URL so that it cuts off the 'https://en.wikipedia.org/wiki/' section:
       // Ex:
