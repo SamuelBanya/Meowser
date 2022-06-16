@@ -47,6 +47,10 @@ document.addEventListener("DOMContentLoaded", () => {
     })
       .then(response => response.json())
       .then(data => {
+        console.log("LOOK HERE:");
+        console.log("data: ");
+        console.log(data);
+
         let imagesObj = data.query.pages;
         console.log("imagesObj:");
         console.log(imagesObj);
@@ -64,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log("imageObjArray (outside of for loop): ");
         console.log(imageObjArray);
 
-        let imageTitleArray = [];
+        let imageLinkArray = [];
 
         imageObjArray.forEach ((imageObjEl) => {
           let imageTitle = imageObjEl["title"];
@@ -73,23 +77,22 @@ document.addEventListener("DOMContentLoaded", () => {
           imageTitle = imageTitle.toString();
           // Replace space with '_' instead:
           imageTitle = imageTitle.replace(/ /g, "_");
-          console.log("imageTitle: ");
-          console.log(imageTitle);
-          imageTitleArray.push(imageTitle);
+          let imageLink = "https://en.wikipedia.org/wiki/" + imageTitle;
+          console.log("imageLink: ");
+          console.log(imageLink);
+          imageLinkArray.push(imageTitle);
         });
 
-        console.log("imageTitleArray:");
-        console.log(imageTitleArray);
+        console.log("imageLinkArray:");
+        console.log(imageLinkArray);
 
-        return imageTitleArray;
+        return imageLinkArray;
 
       })
-      .then((imageTitleArray) => {
+      .then((imageLinkArray) => {
         // console.log(`imageTitleArray: ${imageTitleArray}`);
-        imageTitleArray.forEach((imageTitle) => {
-          // TODO: Rip out 'File:' sections with String.prototype.replace():
-          imageTitle = imageTitle.toString().replace("File:", "");
-          console.log(`Converted imageTitle: ${imageTitle}`);
+        imageLinkArray.forEach((imageLink) => {
+          console.log(`imageLink: ${imageLink}`);
           // Now, use this API endpoint example to obtain the images we need:
           // https://github.com/wikimedia/mediawiki-api-demos/blob/master/javascript/get_allimages_by_name.js
 
@@ -100,7 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
             action: "query",
             format: "json",
             list: "allimages",
-            aifrom: `${imageTitle}`,
+            aifrom: `${imageLink}`,
             ailimit: "3"
           };
 

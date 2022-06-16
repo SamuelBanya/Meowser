@@ -250,3 +250,16 @@ imageTitle = imageTitle.replace(/ /g, "%20");
 
 Therefore, I need to read on API docs how to further configure the 'aifrom' parameter properly as its only doing a fuzzy search:
 - https://www.mediawiki.org/wiki/API:Main_page
+
+<2022-06-16 Thu 18:26>: I looked into this further and found a great example of how to implement this:
+- https://www.mediawiki.org/wiki/API:Picture_of_the_day_viewer
+
+However, the only problem with this is that its written in Python 3, but the premise is largely the same:
+- Use the title of the Wikipedia page to grab JSON output for images present
+- Then, use a separate function, 'fetch_image_src()' to make another API call so that you can obtain an 'img_src' to use for an actual image.
+
+In my scenario however, to make sure I get this done on time, I have already fulfilled the requirement of utilizing a single API.
+
+Therefore, if I am so inclined later, I can implement the functionality of completely revitalizing this project with the ability of grabbing images from a specific Wikipedia page for later display.
+
+<2022-06-16 Thu 18:28>: For now, I will scale back the project so that it rips the 'img_src' from the 'db.json' entry to make it easier.
