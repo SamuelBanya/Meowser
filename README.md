@@ -1,19 +1,20 @@
 
 # Table of Contents
 
-1.  [Meowser](#org0d87ed9)
-2.  [Goals](#orgadd838f)
-3.  [Installation](#orgc49ede0)
+1.  [Meowser](#orga50fce4)
+2.  [Goals](#org185bf5d)
+3.  [Installation](#org0eb59c1)
+4.  [References](#orgc10e831)
 
 
-<a id="org0d87ed9"></a>
+<a id="orga50fce4"></a>
 
 # Meowser
 
-This is a web app that allows a user to select a cat breed that was scraped from Wikipedia's list of cat breeds, and then view images of that breed, the related Wikipedia article, or a random fact about cats in general.
+This is a web app that allows a user to select a cat breed that was scraped from Wikipedia's list of cat breeds, and then an image of that breed, the related Wikipedia article, or a random fact about cats in general.
 
 
-<a id="orgadd838f"></a>
+<a id="org185bf5d"></a>
 
 # Goals
 
@@ -21,14 +22,14 @@ The main goals of this project include the following:
 
 1.  Allow the user to select a cat breed from a 'select' element
 
-2.  Allow the user to then obtain related images of the cat breed.
+2.  Allow the user to then a obtain related image of the cat breed.
 
 3.  Allow the user to view the related Wikipedia article.
 
 4.  Allow the user to obtain a random cat fact which is displayed at the bottom of the page.
 
 
-<a id="orgc49ede0"></a>
+<a id="org0eb59c1"></a>
 
 # Installation
 
@@ -50,3 +51,12 @@ For Nginx (After 'nginx' is installed properly):
 
 -   You will then have to configure the DNS of the website itself to then be able to have its 'AAA' record point to the desired website accordingly
 -   NOTE: If this is not done, then you will have to specify the IP address and port which is not user-friendly
+
+
+<a id="orgc10e831"></a>
+
+# References
+
+Image credits:
+
+-   <https://en.wikipedia.org/wiki/List_of_cat_breeds>

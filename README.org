@@ -1,11 +1,11 @@
 * Meowser
-This is a web app that allows a user to select a cat breed that was scraped from Wikipedia's list of cat breeds, and then view images of that breed, the related Wikipedia article, or a random fact about cats in general.
+This is a web app that allows a user to select a cat breed that was scraped from Wikipedia's list of cat breeds, and then an image of that breed, the related Wikipedia article, or a random fact about cats in general.
 
 * Goals
 The main goals of this project include the following:
 1. Allow the user to select a cat breed from a 'select' element
 
-2. Allow the user to then obtain related images of the cat breed.
+2. Allow the user to then a obtain related image of the cat breed.
 
 3. Allow the user to view the related Wikipedia article.
 
@@ -33,6 +33,3 @@ ln -s /etc/sites-available/meowser /etc/sites-enabled/meowser
 * References
 Image credits:
 - https://en.wikipedia.org/wiki/List_of_cat_breeds
-
-Image gallery provided by 'Fancybox' JS library:
-- http://fancybox.net/
