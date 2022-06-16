@@ -245,3 +245,8 @@ To compensate for this, I had to use the global '/g' flag to indicate that I wan
 #+begin_src js
 imageTitle = imageTitle.replace(/ /g, "%20");
 #+end_src
+
+<2022-06-16 Thu 16:00>: After a bit of research, I determined that the issue is that the second API call is resulting in a fuzzy search.
+
+Therefore, I need to read on API docs how to further configure the 'aifrom' parameter properly as its only doing a fuzzy search:
+- https://www.mediawiki.org/wiki/API:Main_page

@@ -71,7 +71,8 @@ document.addEventListener("DOMContentLoaded", () => {
           // Desired format:
           // breedLink + '#/media/' + imageTitle
           imageTitle = imageTitle.toString();
-          imageTitle = imageTitle.replace(/ /g, "%20");
+          // Replace space with '_' instead:
+          imageTitle = imageTitle.replace(/ /g, "_");
           console.log("imageTitle: ");
           console.log(imageTitle);
           imageTitleArray.push(imageTitle);
@@ -84,12 +85,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
       })
       .then((imageTitleArray) => {
-        console.log(`imageTitleArray: ${imageTitleArray}`);
+        // console.log(`imageTitleArray: ${imageTitleArray}`);
         imageTitleArray.forEach((imageTitle) => {
-          console.log(`imageTitle: ${imageTitle}`);
+          // TODO: Rip out 'File:' sections with String.prototype.replace():
+          imageTitle = imageTitle.toString().replace("File:", "");
+          console.log(`Converted imageTitle: ${imageTitle}`);
           // Now, use this API endpoint example to obtain the images we need:
           // https://github.com/wikimedia/mediawiki-api-demos/blob/master/javascript/get_allimages_by_name.js
 
+          // TODO: Read on API docs how to further configure the 'aifrom' parameter properly as its only
+          // doing a fuzzy search
+          // https://www.mediawiki.org/wiki/API:Main_page
           var apiParams = {
             action: "query",
             format: "json",
@@ -108,8 +114,21 @@ document.addEventListener("DOMContentLoaded", () => {
           fetch(apiURL)
             .then(response => response.json())
             .then(response => {
+              console.log("_______________________");
+              console.log("Testing Second API Call");
+              console.log("_______________________");
               console.log(`response: ${response}`);
               console.log(response);
+
+              // TODO:
+              // We need to index into the response:
+              // End goal:
+              // Sample output:
+              // url: "https://upload.wikimedia.org/wikipedia/en/2/24/AbylaiKhanUniversity.png"
+
+              // let resultObjArray = [];
+              // resultObjArray.push(response["query"]["allimages"]);
+
               let images = response.query.allimages;
               for (let img in images) {
                 console.log(images[img].title);
