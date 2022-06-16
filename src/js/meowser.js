@@ -30,15 +30,30 @@ document.addEventListener("DOMContentLoaded", () => {
       .then(data => {
         console.log("data: ");
         console.log(data);
-        let filteredImage = data.filter(element => {
+        let filteredObject = data.filter(element => {
           return element.name == breedName;
         });
 
-        filteredImage = filteredImage[0]["imageSrc"];
+        let breedHeaderName = filteredObject[0]["name"];
+        let filteredImageLink = filteredObject[0]["imageSrc"];
 
-        console.log("filteredImage:");
-        console.log(filteredImage);
+        console.log("breedHeaderName:");
+        console.log(breedHeaderName);
 
+        console.log("filteredImageLink:");
+        console.log(filteredImageLink);
+
+        let resultsHeader = document.querySelector("#resultsHeader");
+        resultsHeader.textContent = breedHeaderName;
+
+        let breakTag = document.createElement("br");
+
+        let breedImage = document.createElement("img");
+        breedImage.src = filteredImageLink;
+
+        resultsHeader.append(breakTag);
+
+        resultsHeader.append(breedImage);
       });
   });
 
