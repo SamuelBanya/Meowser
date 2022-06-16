@@ -263,3 +263,5 @@ In my scenario however, to make sure I get this done on time, I have already ful
 Therefore, if I am so inclined later, I can implement the functionality of completely revitalizing this project with the ability of grabbing images from a specific Wikipedia page for later display.
 
 <2022-06-16 Thu 18:28>: For now, I will scale back the project so that it rips the 'img_src' from the 'db.json' entry to make it easier.
+
+<2022-06-16 Thu 19:13>: I was able to scale back a few things, and the project is now complete :)
