@@ -110,7 +110,6 @@ function displayWikiCatBreeds() {
       data.forEach((catBreed) => {
         let optionTag = document.createElement("option");
         optionTag.value = catBreed["link"];
-        optionTag.id = catBreed["imageSrc"];
         optionTag.textContent = catBreed["name"];
         breedSelectTag.append(optionTag);
       });
