@@ -6,7 +6,40 @@ document.addEventListener("DOMContentLoaded", () => {
 
   catImageButton.addEventListener("click", (e) => {
     e.preventDefault();
+    console.log("e.target: ");
+    console.log(e.target);
 
+    // Clear out Wikipedia iframe if present on page:
+    let wikipediaIFrame = document.querySelector("#wikipediaIFrame");
+    clearElement(wikipediaIFrame);
+
+    // Clear out 'resultsHeader' and 'resultsParagraph' if present on page:
+    let resultsHeader = document.querySelector("#resultsHeader");
+    let resultsParagraph = document.querySelector("#resultsParagraph");
+
+    clearElement(resultsHeader);
+    clearElement(resultsParagraph);
+
+    let breedSelectTag = document.querySelector("#breedSelect");
+    let breedName = breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
+    console.log("breedName: ");
+    console.log(breedName);
+
+    fetch("http://localhost:3000/breeds")
+      .then(response => response.json())
+      .then(data => {
+        console.log("data: ");
+        console.log(data);
+        let filteredImage = data.filter(element => {
+          return element.name == breedName;
+        });
+
+        filteredImage = filteredImage[0]["imageSrc"];
+
+        console.log("filteredImage:");
+        console.log(filteredImage);
+
+      });
   });
 
   let catWikiButton = document.querySelector("#catWikiButton");
@@ -27,18 +60,12 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(`breedName: ${breedName}`);
     console.log(breedName);
 
-    // Set the contents of 'resultsHeader' and 'resultsParagraph' to a blank string on each run:
+    // Clear out 'resultsHeader' and 'resultsParagraph' if present on page:
     let resultsHeader = document.querySelector("#resultsHeader");
     let resultsParagraph = document.querySelector("#resultsParagraph");
 
-    // Clear out 'resultsHeader' and 'resultsParagraph' if present on page:
-    if (resultsHeader) {
-      resultsHeader.innerHTML = "";
-    }
-
-    if (resultsParagraph) {
-      resultsParagraph.innerHTML = "";
-    }
+    clearElement(resultsHeader);
+    clearElement(resultsParagraph);
 
     // Place wikipedia article contents into <iframe> within 'resultsParagraph' location
     let wikipediaIFrame = document.createElement("iframe");
@@ -58,7 +85,6 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("https://cat-fact.herokuapp.com/facts")
       .then(response => response.json())
       .then(data => {
-        // console.log("data: ");
         // Pick a random fact using Math.random() with 4 numbers for 5 index values from 0 to 4:
         let choiceMax = data.length - 1;
         console.log(`choiceMax: ${choiceMax}`);
@@ -77,9 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Clear out Wikipedia iframe if present on page:
         let wikipediaIFrame = document.querySelector("#wikipediaIFrame");
-        if (wikipediaIFrame) {
-          wikipediaIFrame.innerHTML = "";
-        }
+        clearElement(wikipediaIFrame);
 
         let resultsHeader = document.querySelector("#resultsHeader")
         console.log("resultsHeader: ");
@@ -103,9 +127,16 @@ function displayWikiCatBreeds() {
         console.log(`name: ${catBreed["name"]}`);
         let optionTag = document.createElement("option");
         optionTag.value = catBreed["link"];
+        optionTag.id = catBreed["imageSrc"];
         optionTag.textContent = catBreed["name"];
         breedSelectTag.append(optionTag);
       });
       console.log("name: ", data["name"]);
     });
+}
+
+function clearElement(cssSelector) {
+  if (cssSelector) {
+    cssSelector.innerHTML = "";
+  }
 }
