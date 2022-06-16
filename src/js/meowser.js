@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(breedSelectTag);
     let breedLink = breedSelectTag.options[breedSelectTag.selectedIndex].value;
     let breedName = breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
-    breedName = breedLink.toString().replace(/\s/g, '');
+    breedLink = breedLink.toString().replace(/\s/g, '');
     console.log(`breedLink: ${breedLink}`);
     console.log(breedLink);
     console.log(`breedName: ${breedName}`);
@@ -27,7 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let wikiURL = "https://en.wikipedia.org/w/api.php";
 
-    // Call the 'MediaWiki' with the 'breedLink' you obtained:
+    // Call the 'MediaWiki' with the 'breedLink' you obtained using this API endpoint:
+    // https://github.com/wikimedia/mediawiki-api-demos/blob/master/javascript/get_page_images.js
     var apiParams = {
       action: "query",
       prop: "images",
@@ -35,19 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
       format: "json"
     };
 
-    // https://en.wikipedia.org/wiki/Abyssinian_cat
-    // let splitURL = breedLink.split("https://en.wikipedia.org/wiki/");
-    // console.log("splitURL: ", splitURL);
-    // This link works in browser:
-    // https://en.wikipedia.org/w/api.php?origin=*&action=query&prop=images&titles=Abyssinian_cat&format=json
-
     let apiURL = wikiURL + "?origin=*";
-
-    // Separate out the URL so that it cuts off the 'https://en.wikipedia.org/wiki/' section:
-    // Ex:
-    // https://en.wikipedia.org/wiki/Abyssinian_cat
-    // URL that actually works:
-    // https://en.wikipedia.org/w/api.php?origin=*&action=query&prop=images&titles=Abyssinian_cat&format=json
 
     Object.keys(apiParams).forEach(function(key){apiURL += "&" + key + "=" + apiParams[key];});
 
@@ -55,13 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     fetch(apiURL, {
       method: "GET"
-      /*
-        headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET,HEAD,OPTIONS,POST,PUT",
-        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
-        },
-      */
     })
       .then(response => response.json())
       .then(data => {
@@ -82,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log("imageObjArray (outside of for loop): ");
         console.log(imageObjArray);
 
-        let imageLinkArray = [];
+        let imageTitleArray = [];
 
         imageObjArray.forEach ((imageObjEl) => {
           let imageTitle = imageObjEl["title"];
@@ -92,39 +74,50 @@ document.addEventListener("DOMContentLoaded", () => {
           imageTitle = imageTitle.replace(/ /g, "%20");
           console.log("imageTitle: ");
           console.log(imageTitle);
-          let imageLink = breedLink + '#/media/' + imageTitle;
-          // Replace any space with '%20' so the URL can be used for later use:
-          imageLinkArray.push(imageLink);
+          imageTitleArray.push(imageTitle);
         });
 
+        console.log("imageTitleArray:");
+        console.log(imageTitleArray);
 
-        // Place them onto the DOM within the '#resultsDiv':
-        let resultsDiv = document.querySelector("#resultsDiv");
+        return imageTitleArray;
 
-        let imagesHeader = document.createElement("h2");
-        imagesHeader.textContent = "Image Gallery";
-        imagesHeader.id = "imagesHeader";
-        resultsDiv.append(imagesHeader);
+      })
+      .then((imageTitleArray) => {
+        console.log(`imageTitleArray: ${imageTitleArray}`);
+        imageTitleArray.forEach((imageTitle) => {
+          console.log(`imageTitle: ${imageTitle}`);
+          // Now, use this API endpoint example to obtain the images we need:
+          // https://github.com/wikimedia/mediawiki-api-demos/blob/master/javascript/get_allimages_by_name.js
 
-        let resultsImagesDiv = document.createElement("div");
-        resultsImagesDiv.id = "resultsImagesDiv";
-        imagesHeader.append(resultsImagesDiv);
+          var apiParams = {
+            action: "query",
+            format: "json",
+            list: "allimages",
+            aifrom: `${imageTitle}`,
+            ailimit: "3"
+          };
 
-        console.log("imageLinkArray: ");
-        console.log(imageLinkArray);
+          let wikiURL = "https://en.wikipedia.org/w/api.php";
+          let apiURL = wikiURL + "?origin=*";
 
-        imageLinkArray.forEach((imageLink) => {
-          console.log(`imageLink: ${imageLink}`);
-          let catImageLink = document.createElement("img");
-          catImageLink.src = imageLink;
-          console.log(`catImageLink: ${catImageLink}`);
-          resultsImagesDiv.append(catImageLink);
+          Object.keys(apiParams).forEach(function(key){apiURL += "&" + key + "=" + apiParams[key];});
+
+          console.log(`apiURL: ${apiURL}`);
+
+          fetch(apiURL)
+            .then(response => response.json())
+            .then(response => {
+              console.log(`response: ${response}`);
+              console.log(response);
+              let images = response.query.allimages;
+              for (let img in images) {
+                console.log(images[img].title);
+              }
+            });
         });
-
       });
-    // Display the images in a 'Fancybox' gallery using this pattern:
-    // picture_img_tag = str('<a data-fancybox="gallery" href="' + str(regular_image_version) + '" data-fancybox="' + str(current_filename) + '" data-caption="' + str(current_filename) + '"><img src="' + str(thumb_image_version) + '"/></a>')
-  })
+  });
 
   let catWikiButton = document.querySelector("#catWikiButton");
 
@@ -134,32 +127,37 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("'catWikiButton' button clicked!");
 
     let breedSelectTag = document.querySelector("#breedSelect");
+    console.log(`breedSelectTag: ${breedSelectTag}`);
+    console.log(breedSelectTag);
     let breedLink = breedSelectTag.options[breedSelectTag.selectedIndex].value;
     let breedName = breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
-    breedName = breedLink.toString().replace(/\s/g, '');
+    breedLink = breedLink.toString().replace(/\s/g, '');
     console.log(`breedLink: ${breedLink}`);
     console.log(breedLink);
     console.log(`breedName: ${breedName}`);
     console.log(breedName);
-    // Make API call to 'MediaWiki' REST API using 'breedLink'
-    fetch(`https://cataas.com/cat/${breedName}`, {
-      method: "GET",
-      headers: {
-        "Access-Control-Allow-Origin": "*"
-      }
-    })
-      .then(response => {
-        console.log(response);
-        response.json();
-      })
-      .then(data => {
-        console.log(`data: ${data}`);
-        // Set the contents of 'resultsHeader' and 'resultsParagraph' to a blank string on each run:
-        let resultsHeader = document.querySelector("#resultsHeader");
-        let resultsParagraph = document.querySelector("#resultsParagraph");
-        // Place wikipedia article contents into <iframe> within 'resultsParagraph' location
-      })
-  })
+
+    // Set the contents of 'resultsHeader' and 'resultsParagraph' to a blank string on each run:
+    let resultsHeader = document.querySelector("#resultsHeader");
+    let resultsParagraph = document.querySelector("#resultsParagraph");
+
+    // Clear out 'resultsHeader' and 'resultsParagraph' if present on page:
+    if (resultsHeader) {
+      resultsHeader.innerHTML = "";
+    }
+
+    if (resultsParagraph) {
+      resultsParagraph.innerHTML = "";
+    }
+
+    // Place wikipedia article contents into <iframe> within 'resultsParagraph' location
+    let wikipediaIFrame = document.createElement("iframe");
+    wikipediaIFrame.src = breedLink;
+    wikipediaIFrame.id = "wikipediaIFrame";
+    console.log(`wikipediaIFrame: ${wikipediaIFrame}`);
+    console.log(wikipediaIFrame);
+    resultsParagraph.append(wikipediaIFrame);
+  });
 
   let catFactButton = document.querySelector("#catFactButton");
 
@@ -187,6 +185,12 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log("randomChoice: ");
         console.log(randomChoice);
 
+        // Clear out Wikipedia iframe if present on page:
+        let wikipediaIFrame = document.querySelector("#wikipediaIFrame");
+        if (wikipediaIFrame) {
+          wikipediaIFrame.innerHTML = "";
+        }
+
         let resultsHeader = document.querySelector("#resultsHeader")
         console.log("resultsHeader: ");
         console.log(resultsHeader);
@@ -208,10 +212,10 @@ function displayWikiCatBreeds() {
       data.forEach((catBreed) => {
         console.log(`name: ${catBreed["name"]}`);
         let optionTag = document.createElement("option");
-        optionTag.value = catBreed["wikiArticleLink"];
+        optionTag.value = catBreed["link"];
         optionTag.textContent = catBreed["name"];
         breedSelectTag.append(optionTag);
-      })
+      });
       console.log("name: ", data["name"]);
-    })
+    });
 }

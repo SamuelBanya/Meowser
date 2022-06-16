@@ -74,3 +74,7 @@ body {
   color: #080906;
   background-color: #FE6392;
 }
+
+iframe {
+  border: 2px solid black;
+}
