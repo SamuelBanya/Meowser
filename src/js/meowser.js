@@ -19,12 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
     clearElement(resultsParagraph);
 
     let breedSelectTag = document.querySelector("#breedSelect");
-    let breedName = breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
+    let breedName =
+      breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
 
     fetch("http://localhost:3000/breeds")
-      .then(response => response.json())
-      .then(data => {
-        let filteredObject = data.filter(element => {
+      .then((response) => response.json())
+      .then((data) => {
+        let filteredObject = data.filter((element) => {
           return element.name == breedName;
         });
 
@@ -52,8 +53,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let breedSelectTag = document.querySelector("#breedSelect");
     let breedLink = breedSelectTag.options[breedSelectTag.selectedIndex].value;
-    let breedName = breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
-    breedLink = breedLink.toString().replace(/\s/g, '');
+    let breedName =
+      breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
+    breedLink = breedLink.toString().replace(/\s/g, "");
 
     // Clear out 'resultsHeader' and 'resultsParagraph' if present on page:
     let resultsHeader = document.querySelector("#resultsHeader");
@@ -75,8 +77,8 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
 
     fetch("https://cat-fact.herokuapp.com/facts")
-      .then(response => response.json())
-      .then(data => {
+      .then((response) => response.json())
+      .then((data) => {
         // Pick a random fact using Math.random() with 4 numbers for 5 index values from 0 to 4:
         let choiceMax = data.length - 1;
 
@@ -84,7 +86,9 @@ document.addEventListener("DOMContentLoaded", () => {
         // From MDN Docs:
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
-        let choiceNumber = Math.floor(Math.random() * (choiceMax - choiceMin) + choiceMin);
+        let choiceNumber = Math.floor(
+          Math.random() * (choiceMax - choiceMin) + choiceMin
+        );
 
         let randomChoice = data[choiceNumber];
 
@@ -103,8 +107,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function displayWikiCatBreeds() {
   fetch("http://localhost:3000/breeds")
-    .then(response => response.json())
-    .then(data => {
+    .then((response) => response.json())
+    .then((data) => {
       let breedSelectTag = document.querySelector("#breedSelect");
       breedSelectTag.innerHTML = "";
       data.forEach((catBreed) => {
