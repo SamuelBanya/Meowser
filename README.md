@@ -1,28 +1,28 @@
 
 # Table of Contents
 
-1.  [Link To Project](#org094d643)
-2.  [Meowser](#org8c7c90e)
-3.  [Goals](#org192a6c5)
-4.  [Installation](#org07602f2)
-5.  [References](#org3779881)
+1.  [Link To Project](#orga75254e)
+2.  [Meowser](#org1bb8b42)
+3.  [Goals](#org6c8aa51)
+4.  [Installation](#org4aaf0b1)
+5.  [References](#org9ea94f8)
 
 
-<a id="org094d643"></a>
+<a id="orga75254e"></a>
 
 # Link To Project
 
--   [Meowser](./index.html)
+-   [Meowser](./meowser.html)
 
 
-<a id="org8c7c90e"></a>
+<a id="org1bb8b42"></a>
 
 # Meowser
 
 This is a web app that allows a user to select a cat breed that was scraped from Wikipedia's list of cat breeds, and then an image of that breed, the related Wikipedia article, or a random fact about cats in general.
 
 
-<a id="org192a6c5"></a>
+<a id="org6c8aa51"></a>
 
 # Goals
 
@@ -37,7 +37,7 @@ The main goals of this project include the following:
 4.  Allow the user to obtain a random cat fact which is displayed at the bottom of the page.
 
 
-<a id="org07602f2"></a>
+<a id="org4aaf0b1"></a>
 
 # Installation
 
@@ -61,7 +61,7 @@ For Nginx (After 'nginx' is installed properly):
 -   NOTE: If this is not done, then you will have to specify the IP address and port which is not user-friendly
 
 
-<a id="org3779881"></a>
+<a id="org9ea94f8"></a>
 
 # References
 
