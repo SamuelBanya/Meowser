@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let breedName =
       breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
 
-    fetch("http://localhost:3000/breeds")
+    fetch("https://meowser-jsonserver.herokuapp.com/breeds")
       .then((response) => response.json())
       .then((data) => {
         let filteredObject = data.filter((element) => {
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function displayWikiCatBreeds() {
-  fetch("http://localhost:3000/breeds")
+  fetch("https://meowser-jsonserver.herokuapp.com/breeds")
     .then((response) => response.json())
     .then((data) => {
       let breedSelectTag = document.querySelector("#breedSelect");
